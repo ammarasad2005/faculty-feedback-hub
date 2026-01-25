@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { GraduationCap, LogIn, LogOut, Shield, Trophy } from 'lucide-react';
+import { GraduationCap, LogIn, LogOut, Shield, Trophy, Sun, Moon } from 'lucide-react';
+import { useTheme } from 'next-themes';
 import { Button } from '@/components/ui/button';
 import { useAuth } from '@/contexts/AuthContext';
 import { LoginModal } from './LoginModal';
@@ -13,8 +14,13 @@ interface HeaderProps {
 
 export function Header({ totalFaculty, totalDepartments }: HeaderProps) {
   const { user, isAdmin, signOut } = useAuth();
+  const { theme, setTheme } = useTheme();
   const [showLogin, setShowLogin] = useState(false);
   const [showAdmin, setShowAdmin] = useState(false);
+
+  const toggleTheme = () => {
+    setTheme(theme === 'dark' ? 'light' : 'dark');
+  };
 
   return (
     <>
@@ -46,6 +52,16 @@ export function Header({ totalFaculty, totalDepartments }: HeaderProps) {
             </div>
 
             <div className="flex items-center gap-2 flex-wrap">
+              <Button
+                variant="outline"
+                size="icon"
+                onClick={toggleTheme}
+                className="shrink-0"
+              >
+                <Sun className="h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+                <Moon className="absolute h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+                <span className="sr-only">Toggle theme</span>
+              </Button>
               <Button variant="outline" size="sm" asChild className="gap-2">
                 <Link to="/leaderboard">
                   <Trophy className="w-4 h-4" />
