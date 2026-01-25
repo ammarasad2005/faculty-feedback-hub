@@ -34,21 +34,32 @@ export function GlobalReviews({ faculty, onFacultyClick }: GlobalReviewsProps) {
   const sortedReviews = useMemo(() => {
     if (!reviews) return [];
 
-    let sorted = [...reviews];
+    let result: typeof reviews = [];
 
     switch (sortOption) {
       case 'recent':
-        sorted.sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
+        // Most recent 5 reviews
+        result = [...reviews]
+          .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime())
+          .slice(0, 5);
         break;
       case 'top':
-        sorted.sort((a, b) => b.rating - a.rating || new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
+        // Get 5 highest rated, then sort chronologically
+        result = [...reviews]
+          .sort((a, b) => b.rating - a.rating)
+          .slice(0, 5)
+          .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
         break;
       case 'least':
-        sorted.sort((a, b) => a.rating - b.rating || new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
+        // Get 5 lowest rated, then sort chronologically
+        result = [...reviews]
+          .sort((a, b) => a.rating - b.rating)
+          .slice(0, 5)
+          .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime());
         break;
     }
 
-    return sorted.slice(0, 5);
+    return result;
   }, [reviews, sortOption]);
 
   const getDropdownLabel = () => {
