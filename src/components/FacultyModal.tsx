@@ -1,13 +1,23 @@
+import { useState, useMemo } from 'react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { ScrollArea } from '@/components/ui/scroll-area';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/ui/select';
 import { StarRating } from './StarRating';
 import { ReviewForm } from './ReviewForm';
 import { ReviewList } from './ReviewList';
 import { useReviews } from '@/hooks/useReviews';
 import { ProcessedFaculty } from '@/hooks/useFacultyData';
-import { ExternalLink, Mail } from 'lucide-react';
+import { ExternalLink, Mail, ArrowUpDown } from 'lucide-react';
+
+type SortOption = 'recent' | 'highest' | 'lowest';
 
 interface FacultyModalProps {
   faculty: ProcessedFaculty | null;
@@ -16,13 +26,30 @@ interface FacultyModalProps {
 
 export function FacultyModal({ faculty, onClose }: FacultyModalProps) {
   const { data: reviews, isLoading } = useReviews(faculty?.id || '');
+  const [sortBy, setSortBy] = useState<SortOption>('recent');
+
+  const sortedReviews = useMemo(() => {
+    if (!reviews) return undefined;
+
+    const sorted = [...reviews];
+    switch (sortBy) {
+      case 'highest':
+        return sorted.sort((a, b) => b.rating - a.rating);
+      case 'lowest':
+        return sorted.sort((a, b) => a.rating - b.rating);
+      case 'recent':
+      default:
+        return sorted.sort(
+          (a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime()
+        );
+    }
+  }, [reviews, sortBy]);
 
   if (!faculty) return null;
 
   const totalReviews = reviews?.length || 0;
-  const avgRating = totalReviews > 0
-    ? reviews!.reduce((sum, r) => sum + r.rating, 0) / totalReviews
-    : 0;
+  const avgRating =
+    totalReviews > 0 ? reviews!.reduce((sum, r) => sum + r.rating, 0) / totalReviews : 0;
 
   return (
     <Dialog open={!!faculty} onOpenChange={() => onClose()}>
@@ -92,10 +119,27 @@ export function FacultyModal({ faculty, onClose }: FacultyModalProps) {
             <ReviewForm facultyId={faculty.id} facultyName={faculty.name} />
             
             <div>
-              <h3 className="font-semibold text-lg mb-4">
-                Reviews {totalReviews > 0 && `(${totalReviews})`}
-              </h3>
-              <ReviewList reviews={reviews} isLoading={isLoading} />
+              <div className="flex items-center justify-between gap-4 mb-4 flex-wrap">
+                <h3 className="font-semibold text-lg">
+                  Reviews {totalReviews > 0 && `(${totalReviews})`}
+                </h3>
+                {totalReviews > 1 && (
+                  <div className="flex items-center gap-2">
+                    <ArrowUpDown className="h-4 w-4 text-muted-foreground" />
+                    <Select value={sortBy} onValueChange={(v) => setSortBy(v as SortOption)}>
+                      <SelectTrigger className="w-[140px] h-8 text-sm border-2">
+                        <SelectValue />
+                      </SelectTrigger>
+                      <SelectContent className="bg-popover border-2 border-border z-50">
+                        <SelectItem value="recent">Most Recent</SelectItem>
+                        <SelectItem value="highest">Highest Rated</SelectItem>
+                        <SelectItem value="lowest">Lowest Rated</SelectItem>
+                      </SelectContent>
+                    </Select>
+                  </div>
+                )}
+              </div>
+              <ReviewList reviews={sortedReviews} isLoading={isLoading} />
             </div>
           </div>
         </ScrollArea>
