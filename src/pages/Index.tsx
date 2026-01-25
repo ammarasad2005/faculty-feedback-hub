@@ -98,7 +98,7 @@ const Index = () => {
   }
 
   return (
-    <div className="min-h-screen bg-background bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/[0.02] via-background to-background dark:from-primary/[0.04]">
+    <div className="min-h-screen bg-gradient-to-b from-primary/[0.06] via-primary/[0.02] to-primary/[0.08] dark:from-primary/[0.08] dark:via-primary/[0.03] dark:to-primary/[0.10]">
       <Header
         totalFaculty={faculty.length}
         totalDepartments={departments.length}
@@ -225,7 +225,7 @@ const Index = () => {
         onClose={() => setSelectedFaculty(null)}
       />
 
-      <footer className="border-t border-border/50 py-8 mt-12 bg-gradient-to-t from-muted/40 via-muted/10 to-transparent dark:from-background dark:via-card/20 dark:to-transparent">
+      <footer className="border-t border-primary/10 py-8 mt-12 bg-gradient-to-t from-primary/[0.12] via-primary/[0.06] to-transparent dark:from-primary/[0.15] dark:via-primary/[0.08] dark:to-transparent">
         <div className="container text-center text-sm text-muted-foreground">
           <p className="font-medium">Anonymous Faculty Review System • FAST-NUCES Islamabad</p>
           <p className="mt-1.5 text-muted-foreground/80">Reviews are completely anonymous and cannot be traced back to users.</p>
