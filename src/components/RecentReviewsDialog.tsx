@@ -1,27 +1,30 @@
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import { format } from 'date-fns';
-import { Bell } from 'lucide-react';
 import { useAllReviews } from '@/hooks/useReviews';
 import { ProcessedFaculty } from '@/hooks/useFacultyData';
 import { StarRating } from './StarRating';
 import { Skeleton } from '@/components/ui/skeleton';
-import { Button } from '@/components/ui/button';
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
-  DialogTrigger,
 } from '@/components/ui/dialog';
 
-interface GlobalReviewsProps {
+interface RecentReviewsDialogProps {
+  open: boolean;
+  onClose: () => void;
   faculty: ProcessedFaculty[];
   onFacultyClick: (faculty: ProcessedFaculty) => void;
 }
 
-export function GlobalReviews({ faculty, onFacultyClick }: GlobalReviewsProps) {
+export function RecentReviewsDialog({
+  open,
+  onClose,
+  faculty,
+  onFacultyClick,
+}: RecentReviewsDialogProps) {
   const { data: reviews, isLoading } = useAllReviews();
-  const [open, setOpen] = useState(false);
 
   const facultyMap = useMemo(() => {
     const map: Record<string, ProcessedFaculty> = {};
@@ -40,28 +43,13 @@ export function GlobalReviews({ faculty, onFacultyClick }: GlobalReviewsProps) {
 
   const handleFacultyClick = (facultyMember: ProcessedFaculty | undefined) => {
     if (facultyMember) {
-      setOpen(false);
+      onClose();
       onFacultyClick(facultyMember);
     }
   };
 
   return (
-    <Dialog open={open} onOpenChange={setOpen}>
-      <DialogTrigger asChild>
-        <Button
-          variant="outline"
-          size="icon"
-          className="fixed top-4 right-4 z-40 border-2"
-          aria-label="View recent reviews"
-        >
-          <Bell className="h-5 w-5" />
-          {reviews && reviews.length > 0 && (
-            <span className="absolute -top-1 -right-1 h-4 w-4 rounded-full bg-primary text-[10px] font-bold text-primary-foreground flex items-center justify-center">
-              {Math.min(reviews.length, 5)}
-            </span>
-          )}
-        </Button>
-      </DialogTrigger>
+    <Dialog open={open} onOpenChange={onClose}>
       <DialogContent className="max-w-md max-h-[80vh] overflow-y-auto">
         <DialogHeader>
           <DialogTitle>Recent Reviews</DialogTitle>

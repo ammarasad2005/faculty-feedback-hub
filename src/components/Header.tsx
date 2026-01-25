@@ -1,22 +1,27 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { GraduationCap, LogIn, LogOut, Shield, Trophy, Sun, Moon } from 'lucide-react';
+import { GraduationCap, LogIn, LogOut, Shield, Trophy, Sun, Moon, Bell } from 'lucide-react';
 import { useTheme } from 'next-themes';
 import { Button } from '@/components/ui/button';
 import { useAuth } from '@/contexts/AuthContext';
 import { LoginModal } from './LoginModal';
 import { AdminPanel } from './AdminPanel';
+import { RecentReviewsDialog } from './RecentReviewsDialog';
+import { ProcessedFaculty } from '@/hooks/useFacultyData';
 
 interface HeaderProps {
   totalFaculty: number;
   totalDepartments: number;
+  faculty: ProcessedFaculty[];
+  onFacultyClick: (faculty: ProcessedFaculty) => void;
 }
 
-export function Header({ totalFaculty, totalDepartments }: HeaderProps) {
+export function Header({ totalFaculty, totalDepartments, faculty, onFacultyClick }: HeaderProps) {
   const { user, isAdmin, signOut } = useAuth();
   const { theme, setTheme } = useTheme();
   const [showLogin, setShowLogin] = useState(false);
   const [showAdmin, setShowAdmin] = useState(false);
+  const [showReviews, setShowReviews] = useState(false);
 
   const toggleTheme = () => {
     setTheme(theme === 'dark' ? 'light' : 'dark');
@@ -68,6 +73,15 @@ export function Header({ totalFaculty, totalDepartments }: HeaderProps) {
                   Leaderboard
                 </Link>
               </Button>
+              <Button
+                variant="outline"
+                size="icon"
+                onClick={() => setShowReviews(true)}
+                aria-label="View recent reviews"
+                className="shrink-0"
+              >
+                <Bell className="w-4 h-4" />
+              </Button>
               {user ? (
                 <>
                   {isAdmin && (
@@ -109,6 +123,12 @@ export function Header({ totalFaculty, totalDepartments }: HeaderProps) {
 
       <LoginModal open={showLogin} onClose={() => setShowLogin(false)} />
       <AdminPanel open={showAdmin} onClose={() => setShowAdmin(false)} />
+      <RecentReviewsDialog
+        open={showReviews}
+        onClose={() => setShowReviews(false)}
+        faculty={faculty}
+        onFacultyClick={onFacultyClick}
+      />
     </>
   );
 }

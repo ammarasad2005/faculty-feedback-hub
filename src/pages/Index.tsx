@@ -3,7 +3,6 @@ import { Header } from '@/components/Header';
 import { SearchFilter } from '@/components/SearchFilter';
 import { FacultyCard } from '@/components/FacultyCard';
 import { FacultyModal } from '@/components/FacultyModal';
-import { GlobalReviews } from '@/components/GlobalReviews';
 import { useFacultyData, ProcessedFaculty } from '@/hooks/useFacultyData';
 import { useAllReviewStats } from '@/hooks/useReviews';
 import { Skeleton } from '@/components/ui/skeleton';
@@ -103,14 +102,11 @@ const Index = () => {
       <Header
         totalFaculty={faculty.length}
         totalDepartments={departments.length}
+        faculty={faculty}
+        onFacultyClick={setSelectedFaculty}
       />
 
       <main className="container py-6">
-        <GlobalReviews
-          faculty={faculty}
-          onFacultyClick={setSelectedFaculty}
-        />
-
         <SearchFilter
           searchQuery={searchQuery}
           onSearchChange={setSearchQuery}
