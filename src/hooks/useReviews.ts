@@ -65,21 +65,29 @@ export function useSubmitReview() {
 
   return useMutation({
     mutationFn: async ({ facultyId, rating, comment }: { facultyId: string; rating: number; comment: string }) => {
-      const { data, error } = await supabase
-        .from('reviews')
-        .insert({
-          faculty_id: facultyId,
-          rating,
-          comment,
-        })
-        .select()
-        .single();
+      const response = await fetch(
+        `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/submit-review`,
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'apikey': import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY,
+          },
+          body: JSON.stringify({ facultyId, rating, comment }),
+        }
+      );
 
-      if (error) throw error;
-      return data;
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to submit review');
+      }
+
+      return data.data;
     },
     onSuccess: (_, variables) => {
       queryClient.invalidateQueries({ queryKey: ['reviews', variables.facultyId] });
+      queryClient.invalidateQueries({ queryKey: ['all-reviews'] });
       queryClient.invalidateQueries({ queryKey: ['review-stats'] });
     },
   });
