@@ -1,0 +1,1573 @@
+{
+  "metadata": {
+    "institution": "National University of Computer & Emerging Sciences (FAST-NUCES)",
+    "campus": "Islamabad",
+    "website": "https://isb.nu.edu.pk",
+    "scraped_at": "2026-01-24T15:07:20.685973",
+    "statistics": {
+      "total_departments": 9,
+      "total_faculty": 241,
+      "profiles_scraped": 241,
+      "duration_seconds": 200.77,
+      "errors": 0
+    }
+  },
+  "schools": {
+    "FAST School of Computing": {
+      "departments": {
+        "DAIDS": {
+          "code": "DAIDS",
+          "name": "Artificial Intelligence & Data Science",
+          "school": "FAST School of Computing",
+          "url": "https://isb.nu.edu.pk/Academics/Faculty-DAIDS.php",
+          "head_of_department": {
+            "name": "Dr. Ahmad Din",
+            "email": "ahmad.din@nu.edu.pk",
+            "profile": "https://isb.nu.edu.pk/Profile.php?id=6478",
+            "image": "https://isb.nu.edu.pk/assets/img/person/P6478.WebP"
+          },
+          "faculty": [
+            {
+              "name": "Dr. Waseem Shahzad",
+              "email": "waseem.shahzad@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=4553",
+              "image": "https://isb.nu.edu.pk/assets/img/person/4553_.webp"
+            },
+            {
+              "name": "Dr. Hasan Mujtaba",
+              "email": "hasan.mujtaba@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=4551",
+              "image": "https://isb.nu.edu.pk/assets/img/person/4551_.webp"
+            },
+            {
+              "name": "Dr. Mirza Omer Beg",
+              "email": "omer.beg@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=9214",
+              "image": "https://isb.nu.edu.pk/assets/img/person/9214_.webp"
+            },
+            {
+              "name": "Dr. Muhammad Asif Naeem",
+              "email": "asif.naeem@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5783",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5783_.webp"
+            },
+            {
+              "name": "Dr. M. Ishtiaq",
+              "email": "m.ishtiaq@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6405",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6405_.webp"
+            },
+            {
+              "name": "Dr. Muhammad Nouman Noor",
+              "email": "nouman.noor@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6990",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6990_.webp"
+            },
+            {
+              "name": "Dr. Zohair Ahmed",
+              "email": "zohair.ahmed@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7364",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7364_.webp"
+            },
+            {
+              "name": "Dr. Adil Majeed",
+              "email": "adil.majeed@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6438",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6438_.webp"
+            },
+            {
+              "name": "Dr. Qurat Ul Ain",
+              "email": "quratul.ain@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7311",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7311_.webp"
+            },
+            {
+              "name": "Dr. Noshina Tariq",
+              "email": "noshina.tariq@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7041",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7041_.webp"
+            },
+            {
+              "name": "Dr. Muhammad Mateen Yaqoob",
+              "email": "mateen.yaqoob@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7022",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7022_.webp"
+            },
+            {
+              "name": "Mr. Shoaib Saleem Khattak",
+              "email": "shoaib.saleem@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=9242",
+              "image": "https://isb.nu.edu.pk/assets/img/person/9242_.webp"
+            },
+            {
+              "name": "Ms. Maryam Sana",
+              "email": "maryam.sana@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7300",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7300_.webp"
+            },
+            {
+              "name": "Ms. Saira Qamar",
+              "email": "saira.qamar@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6451",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6451_.webp"
+            },
+            {
+              "name": "Ms. Umarah Qaseem",
+              "email": "umarah.qaseem@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7009",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7009_.webp"
+            },
+            {
+              "name": "Mr. Ahmad Raza",
+              "email": "ahmad.raza@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6701",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6701_.webp"
+            },
+            {
+              "name": "Mr. Ubaid Ur Rehman",
+              "email": "ubaid.rehman@isn.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7267",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7267_.webp"
+            },
+            {
+              "name": "Ms. Laraib Afzaal",
+              "email": "laraib.afzaal@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6263",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6263_.webp"
+            },
+            {
+              "name": "Mr. Usama Imtiaz",
+              "email": "usama.imtiaz@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7006",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7006_.webp"
+            },
+            {
+              "name": "Mr. Muhammad Sohail Abbas",
+              "email": "sohail.abbas@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6697",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6697_.webp"
+            },
+            {
+              "name": "Ms. Mariam bint Imran",
+              "email": "mariam.imran@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7145",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7145_.webp"
+            },
+            {
+              "name": "Ms. Mehreen Javaid",
+              "email": "mehreen.javaid@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6248",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6248_.webp"
+            },
+            {
+              "name": "Ms. Kanza Hamid",
+              "email": "kanza.hamid@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6869",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6869_.webp"
+            },
+            {
+              "name": "Ms. Mahnoor Tariq",
+              "email": "mahnoor.tariq@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6696",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6696_.webp"
+            },
+            {
+              "name": "Ms. Azka Atiq",
+              "email": "azka.atiq@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7092",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7092_.webp"
+            },
+            {
+              "name": "Ms. Kainat Iqbal",
+              "email": "kainat.Iqbal@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5695",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5695_.webp"
+            },
+            {
+              "name": "Ms. Zonera Anjum",
+              "email": "zonera.anjum@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6801",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6801_.webp"
+            },
+            {
+              "name": "Ms. Khadija Mahmood",
+              "email": "khadija.mahmood@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6534",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6534_.webp"
+            },
+            {
+              "name": "Mr. Mohsin Khan",
+              "email": "mohsin.khan@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7029",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7029_.webp"
+            },
+            {
+              "name": "Mr. Shahbaz Hassan",
+              "email": "shahbaz.hassan@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6707",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6707_.webp"
+            },
+            {
+              "name": "Mr. Talha Tariq",
+              "email": "talha.tariq@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7004",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7004_.webp"
+            },
+            {
+              "name": "Mr. Muhammad Ammar Masood",
+              "email": "ammar.masood@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6695",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6695_.webp"
+            },
+            {
+              "name": "Ms. Sidra Fayyaz",
+              "email": "sidra.fayyaz@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6988",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6988_.webp"
+            },
+            {
+              "name": "Ms. Maryam Hussain",
+              "email": "maryam.hussain@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6694",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6694_.webp"
+            },
+            {
+              "name": "Mr. Ali Hamza",
+              "email": "ali.hamza@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6974",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6974_.webp"
+            },
+            {
+              "name": "Ms. Mubrra Asma",
+              "email": "mubrra.asma@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6693",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6693_.webp"
+            },
+            {
+              "name": "Ms. Nayyera Wasim",
+              "email": "nayyera.wasim@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7301",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7301_.webp"
+            },
+            {
+              "name": "Ms. Nabeelah Maryam",
+              "email": "nabeelah.maryam@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6972",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6972_.webp"
+            },
+            {
+              "name": "Mr. Abdul Hammad Rasheed",
+              "email": "hammad.rasheed@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6654",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6654_.webp"
+            },
+            {
+              "name": "Mr. Abdul Wahab Khan",
+              "email": "abdul.wahab@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7125",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7125_.webp"
+            },
+            {
+              "name": "Ms. Palwasha Zahid",
+              "email": "palwasha.zahid@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6708",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6708_.webp"
+            }
+          ],
+          "faculty_count": 42,
+          "description": "Welcome to the Department of Artificial Intelligence and Data Science — where innovation meets insight. Our mission is to nurture critical thinkers, innovators, and problem-solvers equipped to harness the power of data and AI for real-world impact."
+        },
+        "DCS": {
+          "code": "DCS",
+          "name": "Computer Science",
+          "school": "FAST School of Computing",
+          "url": "https://isb.nu.edu.pk/Academics/Faculty-DCS.php",
+          "head_of_department": {
+            "name": "Dr. Muhammad Arshad Islam",
+            "email": "arshad.islam@nu.edu.pk",
+            "profile": "https://isb.nu.edu.pk/Profile.php?id=5724",
+            "image": "https://isb.nu.edu.pk/assets/img/person/P5724.WebP"
+          },
+          "faculty": [
+            {
+              "name": "Dr. Hammad Majeed",
+              "email": "hammad.majeed@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=4400",
+              "image": "https://isb.nu.edu.pk/assets/img/person/4400_.webp"
+            },
+            {
+              "name": "Dr. Ahmad Raza Shahid",
+              "email": "ahmadraza.shahid@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6259",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6259_.webp"
+            },
+            {
+              "name": "Dr. Akhtar Jamil",
+              "email": "akhtar.jamil@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6139",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6139_.webp"
+            },
+            {
+              "name": "Dr. Labiba Fahad",
+              "email": "labiba.fahad@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5249",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5249_.webp"
+            },
+            {
+              "name": "Dr. Ejaz Ahmed",
+              "email": "ejaz.ahmed@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=4894",
+              "image": "https://isb.nu.edu.pk/assets/img/person/4894_.webp"
+            },
+            {
+              "name": "Ms. Noor Ul Ain",
+              "email": "noorul.ain@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=4549",
+              "image": "https://isb.nu.edu.pk/assets/img/person/4549_.webp"
+            },
+            {
+              "name": "Dr. Basharat Hussain",
+              "email": "basharat.hussain@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6823",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6823_.webp"
+            },
+            {
+              "name": "Dr. Mehreen Alam",
+              "email": "mehreen.alam@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=3949",
+              "image": "https://isb.nu.edu.pk/assets/img/person/3949_.webp"
+            },
+            {
+              "name": "Dr. Ali Zeeshan Ijaz",
+              "email": "ali.zeeshan@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6735",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6735_.webp"
+            },
+            {
+              "name": "Dr. Muhammad Faisal Cheema",
+              "email": "faisal.cheema@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5829",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5829_.webp"
+            },
+            {
+              "name": "Ms. Amna Irum",
+              "email": "amna.irum@nuedu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5250",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5250_.webp"
+            },
+            {
+              "name": "Dr. Hina Ayaz",
+              "email": "hina.ayaz@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7013",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7013_.webp"
+            },
+            {
+              "name": "Dr. Muhammad Rizwan",
+              "email": "muhammad.rizwan@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7325",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7325_.webp"
+            },
+            {
+              "name": "Dr. Tajwar Mehmood",
+              "email": "tajwar.mehmood@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6610",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6610_.webp"
+            },
+            {
+              "name": "Mr. Fahad Shafique Mirza",
+              "email": "fahad.shafique@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7138",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7138_.webp"
+            },
+            {
+              "name": "Mr. Shams Farooq",
+              "email": "shams.farooq@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5687",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5687_.webp"
+            },
+            {
+              "name": "Mr. Muhammad Farrukh Bashir",
+              "email": "farrukh.bashir@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6688",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6688_.webp"
+            },
+            {
+              "name": "Ms. Hira Mastoor",
+              "email": "hira.mastoor@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6252",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6252_.webp"
+            },
+            {
+              "name": "Mr. Muhammad Aamir Gulzar",
+              "email": "aamir.gulzar@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6866",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6866_.webp"
+            },
+            {
+              "name": "Mr. Majid Hussain",
+              "email": "majid.hussain@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5465",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5465_.webp"
+            },
+            {
+              "name": "Ms. Nirmal Tariq",
+              "email": "nirmal.tariq@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6613",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6613_.webp"
+            },
+            {
+              "name": "Mr. Owais Idrees",
+              "email": "owais.idrees@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6067",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6067_.webp"
+            },
+            {
+              "name": "Ms. Rabail Zahid",
+              "email": "rabail.zahid@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6842",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6842_.webp"
+            },
+            {
+              "name": "Mr. Muhammad Almas Khan",
+              "email": "muhammad.almas@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6528",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6528_.webp"
+            },
+            {
+              "name": "Ms. Saba Kanwal",
+              "email": "saba.kanwal@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5825",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5825_.webp"
+            },
+            {
+              "name": "Mr. Aqib Rehman",
+              "email": "aqib.rehman@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6725",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6725_.webp"
+            },
+            {
+              "name": "Ms. Marium Hida",
+              "email": "marium.hida@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6296",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6296_.webp"
+            },
+            {
+              "name": "Mr. Shehreyar Rashid",
+              "email": "shehreyar.rashid@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=9489",
+              "image": "https://isb.nu.edu.pk/assets/img/person/9489_.webp"
+            },
+            {
+              "name": "Mr. Syed M.Saad Salman",
+              "email": "saad.salman@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5692",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5692_.webp"
+            },
+            {
+              "name": "Mr. Muhammad Aadi Ur Rehman",
+              "email": "aadil.rehman@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6698",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6698_.webp"
+            },
+            {
+              "name": "Ms. Maryam Shahbaz",
+              "email": "maryam.shahbaz@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6260",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6260_.webp"
+            },
+            {
+              "name": "Mr. Muhammad Talha Sharif",
+              "email": "talha.sharif@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7083",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7083_.webp"
+            },
+            {
+              "name": "Ms. Hajira Uzair",
+              "email": "hajira.uzair@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6795",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6795_.webp"
+            },
+            {
+              "name": "Ms. Laiba Noor",
+              "email": "laiba.noor@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7075",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7075_.webp"
+            },
+            {
+              "name": "Mr. Usama Bin Imran",
+              "email": "usama.imran@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6651",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6651_.webp"
+            },
+            {
+              "name": "Mr. Hamza Mahmood Sheikh",
+              "email": "hamza.mahmood@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6993",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6993_.webp"
+            },
+            {
+              "name": "Ms. Asma Tufail",
+              "email": "asma.tufail@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6849",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6849_.webp"
+            },
+            {
+              "name": "Mr. Muhammad Ismail",
+              "email": "muhammad.ismail@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7126",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7126_.webp"
+            },
+            {
+              "name": "Ms. Zill-E-Huma",
+              "email": "zille.huma@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6848",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6848_.webp"
+            },
+            {
+              "name": "Mr. Furqan Nasir",
+              "email": "furqan.nasir@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7310",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7310_.webp"
+            },
+            {
+              "name": "Mr. Ali Umer",
+              "email": "ali.umer@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7297",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7297_.webp"
+            },
+            {
+              "name": "Mr. Imran Khan",
+              "email": "imran.khan@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7268",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7268_.webp"
+            },
+            {
+              "name": "Ms. Syeda Mahnoor Javed",
+              "email": "mahnoor.javed@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6675",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6675_.webp"
+            },
+            {
+              "name": "Mr. Muhammad Umair Khalid",
+              "email": "umair.khalid@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7298",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7298_.webp"
+            }
+          ],
+          "faculty_count": 45,
+          "description": "The Department of Computer Science at FAST School of Computing is dedicated to providing world-class education and research in computing. Our programs blend theoretical foundations with hands-on experience to equip students with the skills and mindset required to solve real-world problems. With a focus on innovation, collaboration, and entrepreneurship, we nurture talent capable of shaping the digital future—both locally and globally."
+        },
+        "DSE": {
+          "code": "DSE",
+          "name": "Software Engineering",
+          "school": "FAST School of Computing",
+          "url": "https://isb.nu.edu.pk/Academics/Faculty-DSE.php",
+          "head_of_department": {
+            "name": "Dr. Usman Habib",
+            "email": "usman.habib@nu.edu.pk",
+            "profile": "https://isb.nu.edu.pk/Profile.php?id=5200",
+            "image": "https://isb.nu.edu.pk/assets/img/person/P5200.WebP"
+          },
+          "faculty": [
+            {
+              "name": "Dr. Naveed Ahmad",
+              "email": "naveed.ahmad@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5689",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5689_.webp"
+            },
+            {
+              "name": "Dr. Atif Aftab Ahmed Jilani",
+              "email": "atif.jilani@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=4401",
+              "image": "https://isb.nu.edu.pk/assets/img/person/4401_.webp"
+            },
+            {
+              "name": "Dr. Shahela Saif",
+              "email": "shahela.saif@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6609",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6609_.webp"
+            },
+            {
+              "name": "Dr. Isma ul Hassan",
+              "email": "isma.hassan@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6606",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6606_.webp"
+            },
+            {
+              "name": "Dr. Behjat Zuhaira",
+              "email": "behjat.zuhaira@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6079",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6079_.webp"
+            },
+            {
+              "name": "Dr. Muhammad Bilal",
+              "email": "muhammad.bilal@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7091",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7091_.webp"
+            },
+            {
+              "name": "Dr. Uzma Mahar",
+              "email": "uzma.mahar@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5691",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5691_.webp"
+            },
+            {
+              "name": "Dr. Asif Muhammad",
+              "email": "asif.muhammad@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6737",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6737_.webp"
+            },
+            {
+              "name": "Dr. Zeshan Khan",
+              "email": "zeshan.khan@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5470",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5470_.webp"
+            },
+            {
+              "name": "Ms. Nigar Azhar Butt",
+              "email": "nigar.azhar@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6802",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6802_.webp"
+            },
+            {
+              "name": "Mr. Irfan Ullah",
+              "email": "irfan.ullah@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6244",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6244_.webp"
+            },
+            {
+              "name": "Ms. Momina Behzad",
+              "email": "momina.behzad@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7247",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7247_.webp"
+            },
+            {
+              "name": "Ms. Laiba Imran",
+              "email": "laiba.imran@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6521",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6521_.webp"
+            },
+            {
+              "name": "Mr. Bilal Khalid Dar",
+              "email": "bilal.khalid@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5693",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5693_.webp"
+            },
+            {
+              "name": "Ms. Fatima Gillani",
+              "email": "fatima.gillani@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7246",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7246_.webp"
+            },
+            {
+              "name": "Mr. Zaheer ul Hussain Sani",
+              "email": "zaheer.sani@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6508",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6508_.webp"
+            },
+            {
+              "name": "Mr. Junaid Ali Khan",
+              "email": "junaid.ali@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7030",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7030_.webp"
+            },
+            {
+              "name": "Ms. Zoya Sumbul Zaheer",
+              "email": "zoya.sumbul@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6384",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6384_.webp"
+            },
+            {
+              "name": "Ms. Anum Kaleem",
+              "email": "anum.kaleem@isb.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7010",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7010_.webp"
+            },
+            {
+              "name": "Mr. Pir Sami Ullah Shah",
+              "email": "samiullah.shah@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6247",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6247_.webp"
+            },
+            {
+              "name": "Ms. Noor ul Ain",
+              "email": "noor.ulain@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6913",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6913_.webp"
+            },
+            {
+              "name": "Ms. Zoya Mahboob",
+              "email": "zoya.mahboob@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6912",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6912_.webp"
+            },
+            {
+              "name": "Mr. Muhammad Muneeb Baig",
+              "email": "muneeb.baig@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6862",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6862_.webp"
+            },
+            {
+              "name": "Mr. Akbar Ali Shah",
+              "email": "akbar.ali@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7270",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7270_.webp"
+            },
+            {
+              "name": "Ms. Ghulam Fatima",
+              "email": "ghulam.fatima@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6853",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6853_.webp"
+            },
+            {
+              "name": "Ms. Hifza Umer",
+              "email": "hifza.umer@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7008",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7008_.webp"
+            },
+            {
+              "name": "Mr. Syed Daniyal Hussain Shah",
+              "email": "daniyal.hussain@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6797",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6797_.webp"
+            },
+            {
+              "name": "Ms. Arige Anjum",
+              "email": "arige.anjum@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7274",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7274_.webp"
+            }
+          ],
+          "faculty_count": 29,
+          "description": "The Department of Software Engineering at FAST School of Computing is committed to preparing professionals equipped with the skills to design, build, and manage complex software systems. Our curriculum integrates software design principles, engineering methodologies, and cutting-edge technologies to address real-world challenges. With an emphasis on quality assurance, teamwork, and innovation, the department nurtures students to become competent software engineers ready to lead in the global technology landscape."
+        },
+        "DCY": {
+          "code": "DCY",
+          "name": "Cyber Security",
+          "school": "FAST School of Computing",
+          "url": "https://isb.nu.edu.pk/Academics/Faculty-DCY.php",
+          "head_of_department": {
+            "name": "Dr. Qaisar Shafi",
+            "email": "qaisar.shafi@nu.edu.pk",
+            "profile": "https://isb.nu.edu.pk/Profile.php?id=6297",
+            "image": "https://isb.nu.edu.pk/assets/img/person/P6297.WebP"
+          },
+          "faculty": [
+            {
+              "name": "Dr. Muhammad Asim",
+              "email": "muhammad.asim@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5099",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5099_.webp"
+            },
+            {
+              "name": "Dr. Subhan Ullah",
+              "email": "subhan.ullah@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5830",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5830_.webp"
+            },
+            {
+              "name": "Dr. Zafar Iqbal Abbasi",
+              "email": "zafar.iqbal@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7023",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7023_.webp"
+            },
+            {
+              "name": "Dr. Sana Aurangzeb",
+              "email": "sana.aurangzeb@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6776",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6776_.webp"
+            },
+            {
+              "name": "Mr. Jawad Hassan Nisar",
+              "email": "jawad.hassan@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=4381",
+              "image": "https://isb.nu.edu.pk/assets/img/person/4381_.webp"
+            },
+            {
+              "name": "Ms. Amina Siddique",
+              "email": "amina.siddique@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6143",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6143_.webp"
+            },
+            {
+              "name": "Ms. Farheen Tabassum",
+              "email": "farheen.tabassum@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6706",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6706_.webp"
+            },
+            {
+              "name": "Ms. Hina Binte Haq",
+              "email": "hina.haq@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6109",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6109_.webp"
+            },
+            {
+              "name": "Mr. Mehmood ul Hassan",
+              "email": "mehmood.hassan@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6529",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6529_.webp"
+            },
+            {
+              "name": "Ms. Sadia Saad",
+              "email": "sadia.saad@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6387",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6387_.webp"
+            },
+            {
+              "name": "Mr. Arslan Aslam",
+              "email": "arslan.aslam@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6243",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6243_.webp"
+            },
+            {
+              "name": "Ms. Aneeqa Khalil",
+              "email": "aneeqa.khalil@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6850",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6850_.webp"
+            },
+            {
+              "name": "Mr. Ahsan Shakeel Malik",
+              "email": "ahsan.shakeel@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7079",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7079_.webp"
+            },
+            {
+              "name": "Mr. Muhammad Suleman Saboor",
+              "email": "suleman.saboor@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6851",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6851_.webp"
+            },
+            {
+              "name": "Ms. Safoora Qurban",
+              "email": "safoora.qurban@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7299",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7299_.webp"
+            },
+            {
+              "name": "Ms. NAVEEN KHAN",
+              "email": "naveen.khan@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7272",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7272_.webp"
+            },
+            {
+              "name": "Ms. Syeda Rubab Zainab",
+              "email": "rubab.zainab@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7302",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7302_.webp"
+            }
+          ],
+          "faculty_count": 18,
+          "description": "The Department of Cyber Security is dedicated to advancing knowledge and expertise in safeguarding digital systems, networks, and data. Our programs focus on developing highly skilled professionals capable of addressing complex cybersecurity challenges through technical excellence, analytical thinking, and ethical responsibility."
+        }
+      },
+      "total_faculty": 134
+    },
+    "FAST School of Engineering": {
+      "departments": {
+        "DCE": {
+          "code": "DCE",
+          "name": "Computer Engineering",
+          "school": "FAST School of Engineering",
+          "url": "https://isb.nu.edu.pk/Academics/Faculty-DCE.php",
+          "head_of_department": {
+            "name": "Dr. Muhammad Tariq",
+            "email": "tariq.khan@nu.edu.pk",
+            "profile": "https://isb.nu.edu.pk/Profile.php?id=4848",
+            "image": "https://isb.nu.edu.pk/assets/img/person/P4848.WebP"
+          },
+          "faculty": [
+            {
+              "name": "Mr. Shehzad Ahmad",
+              "email": "shehzad.ahmad@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=3844",
+              "image": "https://isb.nu.edu.pk/assets/img/person/3844_.webp"
+            },
+            {
+              "name": "Dr. Shahid Qureshi",
+              "email": "shahid.qureshi@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=3730",
+              "image": "https://isb.nu.edu.pk/assets/img/person/3730_.webp"
+            },
+            {
+              "name": "Dr. M. Ibrar Khan",
+              "email": "ibrar.khan@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=3990",
+              "image": "https://isb.nu.edu.pk/assets/img/person/3990_.webp"
+            },
+            {
+              "name": "Mr. Muhammad Hammad",
+              "email": "muhammad.hammad@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7003",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7003_.webp"
+            },
+            {
+              "name": "Ms. Sana Saleh",
+              "email": "sana.saleh@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5055",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5055_.webp"
+            },
+            {
+              "name": "Ms. Maryam Zafar",
+              "email": "maryam.zafar@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6911",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6911_.webp"
+            },
+            {
+              "name": "Mr. Fasih Ahmad Janjua",
+              "email": "fasih.ahmad@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6899",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6899_.webp"
+            },
+            {
+              "name": "Ms. Tooba",
+              "email": "",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7088",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7088_.webp"
+            }
+          ],
+          "faculty_count": 9,
+          "description": "The Department of Computer Engineering at the FAST School of Engineering focuses on developing the next generation of computing professionals equipped to tackle emerging technological challenges. The program integrates computer architecture, embedded systems, networking, and hardware-software co-design to provide a strong foundation in both theory and application. Through hands-on projects, advanced laboratories, and research-driven learning, students gain the skills needed to excel in industries such as automation, robotics, IoT, and AI-driven hardware systems. Our graduates are prepared to lead in a rapidly evolving digital landscape where innovation meets real-world impact."
+        },
+        "DEE": {
+          "code": "DEE",
+          "name": "Electrical Engineering",
+          "school": "FAST School of Engineering",
+          "url": "https://isb.nu.edu.pk/Academics/Faculty-DEE.php",
+          "head_of_department": {
+            "name": "Dr. Niaz Ahmed",
+            "email": "niaz.ahmed@nu.edu.pk",
+            "profile": "https://isb.nu.edu.pk/Profile.php?id=6390",
+            "image": "https://isb.nu.edu.pk/assets/img/person/P6390.WebP"
+          },
+          "faculty": [
+            {
+              "name": "Dr. Mukhtar Ullah",
+              "email": "mukhtar.ullah@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5522",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5522_.webp"
+            },
+            {
+              "name": "Dr. Rashad Ramzan",
+              "email": "rashad.ramzan@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5619",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5619_.webp"
+            },
+            {
+              "name": "Dr. Hassan Saif",
+              "email": "hassan.saif@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5953",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5953_.webp"
+            },
+            {
+              "name": "Dr. Shahzad Saleem",
+              "email": "shahzad.saleem@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=4738",
+              "image": "https://isb.nu.edu.pk/assets/img/person/4738_.webp"
+            },
+            {
+              "name": "Dr. Aamer Hafeez",
+              "email": "aamer.hafeez@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=4283",
+              "image": "https://isb.nu.edu.pk/assets/img/person/4283_.webp"
+            },
+            {
+              "name": "Dr. Muhammad Saeed",
+              "email": "muhammad.saeed@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=4141",
+              "image": "https://isb.nu.edu.pk/assets/img/person/4141_.webp"
+            },
+            {
+              "name": "Dr. Irum Saba",
+              "email": "irum.saba@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7124",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7124_.webp"
+            },
+            {
+              "name": "Dr. Farhan Khalid",
+              "email": "farhan.khalid@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=3625",
+              "image": "https://isb.nu.edu.pk/assets/img/person/3625_.webp"
+            },
+            {
+              "name": "Mr. Aamer Munir",
+              "email": "aamer.munir@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=3441",
+              "image": "https://isb.nu.edu.pk/assets/img/person/3441_.webp"
+            },
+            {
+              "name": "Mr. Fakhar Abbas",
+              "email": "fakhar.abbas@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=4669",
+              "image": "https://isb.nu.edu.pk/assets/img/person/4669_.webp"
+            },
+            {
+              "name": "Ms. Maria Nasir",
+              "email": "maria.nasir@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=9389",
+              "image": "https://isb.nu.edu.pk/assets/img/person/9389_.webp"
+            },
+            {
+              "name": "Ms. Nimra Fatima",
+              "email": "nimra.fatima@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6376",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6376_.webp"
+            },
+            {
+              "name": "Dr. Muhammad Awais",
+              "email": "m.awais@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6389",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6389_.webp\n"
+            },
+            {
+              "name": "Mr. Hazrat Ali",
+              "email": "Hazrat.Ali@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7132",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7132_.webp"
+            },
+            {
+              "name": "Mr. Abu Bakar",
+              "email": "abu.bakar@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6922",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6922_.webp\n"
+            },
+            {
+              "name": "Mr. Muhammad Abd Ur Rehman",
+              "email": "abdur.rehman@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6921",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6921_.webp"
+            },
+            {
+              "name": "Mr. Burhan Naeem",
+              "email": "burhan.naeem@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7359",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7359_.webp"
+            },
+            {
+              "name": "Ms. Deema Zargoon Talib",
+              "email": "deema.zargoon@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7262",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7262_.webp"
+            }
+          ],
+          "faculty_count": 19,
+          "description": "The Department of Electrical Engineering at the FAST School of Engineering is dedicated to developing skilled engineers capable of addressing the world’s growing technological challenges. Our program blends theoretical foundations with hands-on experience in circuit design, embedded systems, telecommunications, and power engineering. Through modern laboratories, research initiatives, and industry collaborations, we prepare students to contribute effectively to innovation, sustainability, and national development. The department strives to cultivate analytical thinking, creativity, and leadership among future electrical engineers."
+        }
+      },
+      "total_faculty": 28
+    },
+    "FAST School of Management": {
+      "departments": {
+        "DMS": {
+          "code": "DMS",
+          "name": "Management Sciences",
+          "school": "FAST School of Management",
+          "url": "https://isb.nu.edu.pk/Academics/Faculty-DMS.php",
+          "head_of_department": {
+            "name": "Dr. Aneka Fahima Sufi",
+            "email": "aneka.fahima@isb.nu.edu.pk",
+            "profile": "https://isb.nu.edu.pk/Profile.php?id=6923",
+            "image": "https://isb.nu.edu.pk/assets/img/person/P6923.WebP"
+          },
+          "faculty": [
+            {
+              "name": "Dr. Sadia Nadeem",
+              "email": "sadia.nadeem@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=3813",
+              "image": "https://isb.nu.edu.pk/assets/img/person/3813_.webp"
+            },
+            {
+              "name": "Dr. Muhammad Abbas",
+              "email": "muhammad.abbas@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=9488",
+              "image": "https://isb.nu.edu.pk/assets/img/person/9488_.webp"
+            },
+            {
+              "name": "Dr. Haider Ali",
+              "email": "haider.ali@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5615",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5615_.webp"
+            },
+            {
+              "name": "Mr. Muhammad Adeel Anwer",
+              "email": "adeel.anwer@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6946",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6946_.webp"
+            },
+            {
+              "name": "Dr. Abdul Wahab",
+              "email": "abdulwahab@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5331",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5331_.webp"
+            },
+            {
+              "name": "Dr. Danial Hasan",
+              "email": "danial.hassan@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5247",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5247_.webp"
+            },
+            {
+              "name": "Dr. Sarah Khan",
+              "email": "sara.khan@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=4398",
+              "image": "https://isb.nu.edu.pk/assets/img/person/4398_.webp"
+            },
+            {
+              "name": "Dr. Qurrat ul ain",
+              "email": "qurrat.ain@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7070",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7070_.webp"
+            },
+            {
+              "name": "Dr. Muhammad Nadeem Sarwar",
+              "email": "nadeem.sarwar@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7000",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7000_.webp"
+            },
+            {
+              "name": "Mr. Usman Zafar Chaudhry",
+              "email": "usman.chaudhry@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=9151",
+              "image": "https://isb.nu.edu.pk/assets/img/person/9151_.webp"
+            },
+            {
+              "name": "Mr. Aftab Bhatti",
+              "email": "aftab.bhatti@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5197",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5197_.webp"
+            },
+            {
+              "name": "Mr. Hammad Majeed",
+              "email": "h.majeed@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=9337",
+              "image": "https://isb.nu.edu.pk/assets/img/person/9337_.webp"
+            },
+            {
+              "name": "Mr. Syed Muhammad Kashif Raza",
+              "email": "kashif.raza@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6775",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6775_.webp"
+            },
+            {
+              "name": "Ms. Sumaira Ghafoor",
+              "email": "Sumaira.Ghafoor@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6915",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6915_.webp"
+            },
+            {
+              "name": "Mr. Mehmood Ur Rehman",
+              "email": "mehmood.rehman@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5841",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5841_.webp"
+            },
+            {
+              "name": "Mr. Muhammad Qaiser Shafi",
+              "email": "qaiser.shafi@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6824",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6824_.webp"
+            },
+            {
+              "name": "Ms. Ayesha Yaqoob",
+              "email": "ayesha.yaqoob@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5792",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5792_.webp"
+            },
+            {
+              "name": "Mr. Mansoor Mushtaq",
+              "email": "mansoor.mushtaq@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=9381",
+              "image": "https://isb.nu.edu.pk/assets/img/person/9381_.webp"
+            },
+            {
+              "name": "Ms. Aamina Mukhtar Sheikh",
+              "email": "aamina.sheikh@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6805",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6805_.webp"
+            },
+            {
+              "name": "Ms. Sidra Abbas",
+              "email": "sidra.abbas@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5093",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5093_.webp"
+            },
+            {
+              "name": "Mr. Abdul Wahab Tahir",
+              "email": "abdulwahab.tahir@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7090",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7090_.webp"
+            },
+            {
+              "name": "Mr. Sajjad Hussain",
+              "email": "sajjad.hussain@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6777",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6777_.webp"
+            },
+            {
+              "name": "Ms. Asma Masood Malik",
+              "email": "asma.masood@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6917",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6917_.webp"
+            },
+            {
+              "name": "Mr. Adnan Feroz Rana",
+              "email": "adnan.feroz@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6994",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6994_.webp"
+            },
+            {
+              "name": "Mr. Abdul Mannan",
+              "email": "abdul.mannan@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6989",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6989_.webp"
+            },
+            {
+              "name": "Mr. Ali Hassan",
+              "email": "ali.hassan@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6987",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6987_.webp"
+            },
+            {
+              "name": "Mr. Hafiz Muhammad Awais Riaz",
+              "email": "awais.riaz@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7129",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7129_.webp"
+            },
+            {
+              "name": "Mr. Mueed Ahmad",
+              "email": "mueed.ahmad@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6986",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6986_.webp"
+            },
+            {
+              "name": "Mr. Imad Ahmad",
+              "email": "muhammad.imad@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7128",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7128_.webp"
+            },
+            {
+              "name": "Dr. Hamnah Rahat",
+              "email": "hamnah.rahat@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6653",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6653_.webp"
+            },
+            {
+              "name": "Ms. Samiya Hameed",
+              "email": "samiya.hameed@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7277",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7277_.webp"
+            },
+            {
+              "name": "Mr. Muhammad Arfeen Gohar",
+              "email": "arfeen.gohar@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7249",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7249_.webp"
+            },
+            {
+              "name": "Ms. Areeba Adnan",
+              "email": "areeba.adnan@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7278",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7278_.webp"
+            }
+          ],
+          "faculty_count": 34,
+          "description": "The Department of Management Sciences at the FAST School of Management welcomes you...To a place of possibilities. We encourage students to recognize the profound responsibility that they have towards themselves, their peers, their families, and society. We encourage them to create every opportunity to engage deeply, question openly, and work closely with our dedicated faculty. Our students learn about envisioning strategic impact, optimizing processes, understanding market complexities, and building strong, effective teams, along with research projects on topics such as diversity, entrepreneurship, Gen AI, business analytics and sustainability. To a place of partnership. As we take on the responsibility to groom responsible professionals, we challenge everyone in the ecosystem to step beyond the familiar. We endeavor to drive change by fostering meaningful collaborations with visionaries comprising research partners, potential employers and philanthropists across academia, industry, and non-profits. Undoubtedly, it is our partners who enrich our curriculum and facilitate student professional development through seminars, co-designed courses, internships, final year projects, and community engagement initiatives.To a place of promise. We invite you to explore our programs, visit our beautiful campus, and meet our faculty."
+        },
+        "DAF": {
+          "code": "DAF",
+          "name": "Accounting & Finance",
+          "school": "FAST School of Management",
+          "url": "https://isb.nu.edu.pk/Academics/Faculty-DAF.php",
+          "head_of_department": {
+            "name": "Dr. Falak Khan",
+            "email": "falak.khan@nu.edu.pk",
+            "profile": "https://isb.nu.edu.pk/Profile.php?id=9133",
+            "image": "https://isb.nu.edu.pk/assets/img/person/P9133.WebP"
+          },
+          "faculty": [
+            {
+              "name": "Dr. Muhammad Hanif Akhtar",
+              "email": "Hanif.Akhtar@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6939",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6939_.webp"
+            },
+            {
+              "name": "Dr. Muhammad Akhtar",
+              "email": "muhammad.akhtar@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5332",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5332_.webp"
+            },
+            {
+              "name": "Dr. Usama Arshad",
+              "email": "usama.arshad@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7078",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7078_.webp"
+            },
+            {
+              "name": "Dr. Rameeza Andleeb",
+              "email": "rameeza.andleeb@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6977",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6977_.webp"
+            },
+            {
+              "name": "Dr. Rehan Aftab",
+              "email": "rehan.aftab@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5334",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5334_.webp"
+            },
+            {
+              "name": "Dr. Muhammad Bilal Saeed",
+              "email": "bilalsaeed@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5333",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5333_.webp"
+            },
+            {
+              "name": "Ms. Amna Farooqui Arsalan",
+              "email": "amna.farooqui@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5441",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5441_.webp"
+            },
+            {
+              "name": "Mr. Sajjad Hanif",
+              "email": "sajjad.hanif@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5318",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5318_.webp"
+            },
+            {
+              "name": "Ms. Syeda Hoor ul ain Ali",
+              "email": "syeda.hoor@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6935",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6935_.webp"
+            },
+            {
+              "name": "Ms. Aleena Nadeem",
+              "email": "aleena.nadeem@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7276",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7276_.webp"
+            }
+          ],
+          "faculty_count": 11,
+          "description": "It is a privilege to welcome you to the Department of Accounting and Finance, a dynamic hub where innovation, analytical excellence, and ethical leadership converge. As global finance continues to evolve through digital transformation, sustainability, and data-driven decision-making, our department stands committed to preparing the next generation of professionals and thought leaders who will shape this exciting future.We pride ourselves on fostering a learning environment that integrates academic rigor with practical relevance. Our programs combine the foundational principles of accounting and finance with the latest developments in financial technology, analytics, and sustainability. Through research-driven teaching, experiential learning, and strong industry linkages, we empower our students to think critically, act responsibly, and innovate confidently in an increasingly digital financial world.To our students, I encourage you to make the most of this journey; learn boldly, collaborate openly, and challenge ideas with curiosity and courage. Your growth, creativity, and integrity will define the future of the financial ecosystem.To our faculty, researchers, and industry partners, I extend an open invitation to collaborate with us in advancing impactful research, knowledge exchange, and innovation. Together, we can co-create solutions that address the pressing challenges of our time, from financial inclusion and sustainability to responsible digital transformation.As we continue to build bridges between academia, industry, and society, our shared goal remains clear: to contribute to a more inclusive, transparent, and resilient financial future.Welcome to a department where ideas inspire action, collaboration drives progress and learning shapes leaders for a better tomorrow."
+        }
+      },
+      "total_faculty": 45
+    },
+    "Department of Sciences & Humanities": {
+      "departments": {
+        "DSH": {
+          "code": "DSH",
+          "name": "Sciences & Humanities",
+          "school": "Department of Sciences & Humanities",
+          "url": "https://isb.nu.edu.pk/Academics/Faculty-DSH.php",
+          "head_of_department": {
+            "name": "Dr. Khadija Farooq",
+            "email": "khadija.farooq@nu.edu.pk",
+            "profile": "https://isb.nu.edu.pk/Profile.php?id=3938",
+            "image": "https://isb.nu.edu.pk/assets/img/person/3938_.webp"
+          },
+          "faculty": [
+            {
+              "name": "Dr. Syed Irfan Shah",
+              "email": "Irfan.shah@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=4220",
+              "image": "https://isb.nu.edu.pk/assets/img/person/4220_.webp"
+            },
+            {
+              "name": "Dr. M. Usman Ashraf",
+              "email": "usman.ashraf@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=4218",
+              "image": "https://isb.nu.edu.pk/assets/img/person/4218_.webp"
+            },
+            {
+              "name": "Dr. Muhammad Tayyeb Nadeem",
+              "email": "tayyeb.nadeem@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=4385",
+              "image": "https://isb.nu.edu.pk/assets/img/person/4385_.webp"
+            },
+            {
+              "name": "Dr. Hamda Khan",
+              "email": "hamda.khan@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5248",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5248_.webp"
+            },
+            {
+              "name": "Dr. Muhammad Ali",
+              "email": "m.ali@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=4219",
+              "image": "https://isb.nu.edu.pk/assets/img/person/4219_.webp"
+            },
+            {
+              "name": "Ms. Aisha Ijaz",
+              "email": "aisha.ijaz@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=3940",
+              "image": "https://isb.nu.edu.pk/assets/img/person/3940_.webp"
+            },
+            {
+              "name": "Ms. Sumayyah Malik",
+              "email": "sumayyah.malik@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6056",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6056_.webp"
+            },
+            {
+              "name": "Mr. Shahzad Mahmood",
+              "email": "shahzad.mahmood@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=3442",
+              "image": "https://isb.nu.edu.pk/assets/img/person/3442_.webp"
+            },
+            {
+              "name": "Mr. Khalil Ullah",
+              "email": "khalil.awan@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=4576",
+              "image": "https://isb.nu.edu.pk/assets/img/person/4576_.webp"
+            },
+            {
+              "name": "Dr. Farah Jabeen Awan",
+              "email": "farah.awan@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=4214",
+              "image": "https://isb.nu.edu.pk/assets/img/person/4214_.webp"
+            },
+            {
+              "name": "Dr. Mehwish Hassan",
+              "email": "mehwish.hassan@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=4127",
+              "image": "https://isb.nu.edu.pk/assets/img/person/4127_.webp"
+            },
+            {
+              "name": "Ms. Memoona Rasool",
+              "email": "maimoona.rasool@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=9383",
+              "image": "https://isb.nu.edu.pk/assets/img/person/9383_.webp"
+            },
+            {
+              "name": "Ms. Tayyaba Waseem",
+              "email": "tayyaba.waseem@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6918",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6918_.webp"
+            },
+            {
+              "name": "Ms. Zunera Malik",
+              "email": "zunaira.malik@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5902",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5902_.webp"
+            },
+            {
+              "name": "Ms. Sumera Abbas",
+              "email": "sumera.abbas@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=9529",
+              "image": "https://isb.nu.edu.pk/assets/img/person/9529_.webp"
+            },
+            {
+              "name": "Ms. Sanaa Ilyas",
+              "email": "sanaa.ilyas@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5898",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5898_.webp"
+            },
+            {
+              "name": "Ms. Sadia Nauman",
+              "email": "sadia.nauman@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=9341",
+              "image": "https://isb.nu.edu.pk/assets/img/person/9341_.webp"
+            },
+            {
+              "name": "Dr. Sehrish Hassan Shigri",
+              "email": "sehrish.hassan@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=5354",
+              "image": "https://isb.nu.edu.pk/assets/img/person/5354_.webp"
+            },
+            {
+              "name": "Ms. Maria Mazhar",
+              "email": "maria.mazhar@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7007",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7007_.webp"
+            },
+            {
+              "name": "Mr. Muhammad Waqar Ahmad Khan",
+              "email": "waqar.ahmad@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7263",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7263_.webp"
+            },
+            {
+              "name": "Ms. Mehreen",
+              "email": "mehreen@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6533",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6533_.webp"
+            },
+            {
+              "name": "Ms. Hajra Khalid",
+              "email": "hajra.khalid@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6055",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6055_.webp"
+            },
+            {
+              "name": "Ms. Tehmina Ejaz",
+              "email": "tehmina.ejaz@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7248",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7248_.webp"
+            },
+            {
+              "name": "Mr. Muhammad Ibrahim",
+              "email": "m.ibraheem@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6380",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6380_.webp"
+            },
+            {
+              "name": "Mr. Hafiz Muhammad Hammad",
+              "email": "hafiz.hammad@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7073",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7073_.webp"
+            },
+            {
+              "name": "Mr. Hasham Ahmad",
+              "email": "hasham.ahmad@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6287",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6287_.webp"
+            },
+            {
+              "name": "Mr. Muhammad Saqib",
+              "email": "muhammad.saqib@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7072",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7072_.webp"
+            },
+            {
+              "name": "Mr. Muhammad Ajmal Khan",
+              "email": "muhammad.ajmal@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6233",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6233_.webp"
+            },
+            {
+              "name": "Ms. Asefa Zareen Khilji",
+              "email": "asefa.zareen@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7265",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7265_.webp"
+            },
+            {
+              "name": "Mr. Faisal ur Rehman",
+              "email": "faisal.rehman@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7071",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7071_.webp"
+            },
+            {
+              "name": "Ms. Lubna",
+              "email": "lubna@nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=6060",
+              "image": "https://isb.nu.edu.pk/assets/img/person/6060_.webp"
+            },
+            {
+              "name": "Mr. Muhammad Umer",
+              "email": "muhammad.umer@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7260",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7260_.webp"
+            },
+            {
+              "name": "Mr. Abdul Basit",
+              "email": "abdul.basit@isb.nu.edu.pk",
+              "profile": "https://isb.nu.edu.pk/Profile.php?id=7131",
+              "image": "https://isb.nu.edu.pk/assets/img/person/7131_.webp"
+            }
+          ],
+          "faculty_count": 34,
+          "description": "The Department of Sciences & Humanities (DSH) plays a pivotal role in shaping the academic experience at FAST-NUCES Islamabad. By integrating fundamental sciences with courses in communication, ethics, and social awareness, the department nurtures analytical thinking, creativity, and emotional intelligence among students."
+        }
+      },
+      "total_faculty": 34
+    }
+  }
+}
