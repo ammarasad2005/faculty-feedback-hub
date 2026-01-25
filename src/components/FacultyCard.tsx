@@ -9,18 +9,24 @@ interface FacultyCardProps {
   faculty: ProcessedFaculty;
   stats?: { total: number; avg: number };
   onClick: () => void;
+  index?: number;
 }
 
 export const FacultyCard = React.forwardRef<HTMLDivElement, FacultyCardProps>(
-  ({ faculty, stats, onClick }, ref) => {
+  ({ faculty, stats, onClick, index = 0 }, ref) => {
+    // Stagger delay: 50ms per card, max 500ms
+    const delay = Math.min(index * 50, 500);
+    
     return (
       <Card
         ref={ref}
         className={cn(
           'group cursor-pointer',
           'border border-border',
-          'hover:border-primary/30'
+          'hover:border-primary/30',
+          'opacity-0 animate-fade-in'
         )}
+        style={{ animationDelay: `${delay}ms`, animationFillMode: 'forwards' }}
         onClick={onClick}
       >
       <CardContent className="p-4">
