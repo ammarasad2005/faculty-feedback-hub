@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { GraduationCap, LogIn, LogOut, Shield } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { GraduationCap, LogIn, LogOut, Shield, Trophy } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useAuth } from '@/contexts/AuthContext';
 import { LoginModal } from './LoginModal';
@@ -44,7 +45,13 @@ export function Header({ totalFaculty, totalDepartments }: HeaderProps) {
               </div>
             </div>
 
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 flex-wrap">
+              <Button variant="outline" size="sm" asChild className="gap-2">
+                <Link to="/leaderboard">
+                  <Trophy className="w-4 h-4" />
+                  Leaderboard
+                </Link>
+              </Button>
               {user ? (
                 <>
                   {isAdmin && (
