@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
 import { StarRating } from './StarRating';
@@ -10,16 +11,18 @@ interface FacultyCardProps {
   onClick: () => void;
 }
 
-export function FacultyCard({ faculty, stats, onClick }: FacultyCardProps) {
-  return (
-    <Card
-      className={cn(
-        'group cursor-pointer transition-all duration-200',
-        'hover:shadow-md hover:-translate-y-0.5',
-        'border-2 border-border'
-      )}
-      onClick={onClick}
-    >
+export const FacultyCard = React.forwardRef<HTMLDivElement, FacultyCardProps>(
+  ({ faculty, stats, onClick }, ref) => {
+    return (
+      <Card
+        ref={ref}
+        className={cn(
+          'group cursor-pointer transition-all duration-200',
+          'hover:shadow-md hover:-translate-y-0.5',
+          'border-2 border-border'
+        )}
+        onClick={onClick}
+      >
       <CardContent className="p-4">
         <div className="flex gap-4">
           <div className="relative w-20 h-20 shrink-0 overflow-hidden border-2 border-border bg-muted">
@@ -67,6 +70,9 @@ export function FacultyCard({ faculty, stats, onClick }: FacultyCardProps) {
           </div>
         </div>
       </CardContent>
-    </Card>
-  );
-}
+      </Card>
+    );
+  }
+);
+
+FacultyCard.displayName = 'FacultyCard';
