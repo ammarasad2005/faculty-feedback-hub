@@ -29,7 +29,7 @@ export function Header({ totalFaculty, totalDepartments, faculty, onFacultyClick
 
   return (
     <>
-      <header className="border-b border-border/60 bg-gradient-to-br from-background via-card to-primary/8 dark:to-primary/12 shadow-sm">
+      <header className="border-b border-border/40 bg-gradient-to-br from-primary/[0.03] via-primary/[0.08] to-primary/[0.15] dark:from-primary/[0.05] dark:via-primary/[0.12] dark:to-primary/[0.20] shadow-sm">
         <div className="container py-6">
           <div className="flex items-start justify-between gap-4">
             <div>
