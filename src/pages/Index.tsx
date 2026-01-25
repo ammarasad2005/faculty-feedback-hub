@@ -156,12 +156,13 @@ const Index = () => {
             </div>
 
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {paginatedFaculty.map((member) => (
+              {paginatedFaculty.map((member, index) => (
                 <FacultyCard
                   key={member.id}
                   faculty={member}
                   stats={reviewStats?.[member.id]}
                   onClick={() => setSelectedFaculty(member)}
+                  index={index}
                 />
               ))}
             </div>
