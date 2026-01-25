@@ -17,9 +17,9 @@ export const FacultyCard = React.forwardRef<HTMLDivElement, FacultyCardProps>(
       <Card
         ref={ref}
         className={cn(
-          'group cursor-pointer transition-all duration-200',
-          'hover:shadow-md hover:-translate-y-0.5',
-          'border-2 border-border'
+          'group cursor-pointer',
+          'border border-border',
+          'hover:border-primary/30'
         )}
         onClick={onClick}
       >
