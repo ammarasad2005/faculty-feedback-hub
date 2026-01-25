@@ -15,7 +15,7 @@ import { ReviewForm } from './ReviewForm';
 import { ReviewList } from './ReviewList';
 import { useReviews } from '@/hooks/useReviews';
 import { ProcessedFaculty } from '@/hooks/useFacultyData';
-import { ExternalLink, Mail, ArrowUpDown } from 'lucide-react';
+import { ExternalLink, Mail, ArrowUpDown, MapPin } from 'lucide-react';
 
 type SortOption = 'recent' | 'highest' | 'lowest';
 
@@ -92,7 +92,13 @@ export function FacultyModal({ faculty, onClose }: FacultyModalProps) {
             </div>
           </div>
           
-          <div className="flex gap-4 mt-4 text-sm">
+          <div className="flex gap-4 mt-4 text-sm flex-wrap">
+            {faculty.office && (
+              <span className="inline-flex items-center gap-1 text-muted-foreground">
+                <MapPin className="w-4 h-4" />
+                {faculty.office}
+              </span>
+            )}
             <a
               href={`mailto:${faculty.email}`}
               className="inline-flex items-center gap-1 text-muted-foreground hover:text-foreground transition-colors"

@@ -3,7 +3,16 @@ export interface FacultyMember {
   email: string;
   profile: string;
   image: string;
+  office?: string;
 }
+
+export interface OfficeEntry {
+  Name: string;
+  Email: string;
+  Office: string;
+}
+
+export type OfficeData = Record<string, OfficeEntry[]>;
 
 export interface Department {
   code: string;
