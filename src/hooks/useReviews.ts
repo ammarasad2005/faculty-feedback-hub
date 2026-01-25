@@ -19,6 +19,21 @@ export function useReviews(facultyId: string) {
   });
 }
 
+export function useAllReviews() {
+  return useQuery({
+    queryKey: ['all-reviews'],
+    queryFn: async () => {
+      const { data, error } = await supabase
+        .from('reviews')
+        .select('*')
+        .order('created_at', { ascending: false });
+
+      if (error) throw error;
+      return data as Review[];
+    },
+  });
+}
+
 export function useAllReviewStats() {
   return useQuery({
     queryKey: ['review-stats'],
