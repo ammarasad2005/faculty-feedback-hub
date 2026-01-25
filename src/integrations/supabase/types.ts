@@ -14,6 +14,27 @@ export type Database = {
   }
   public: {
     Tables: {
+      rate_limits: {
+        Row: {
+          id: string
+          ip_hash: string
+          last_review_at: string
+          review_count: number
+        }
+        Insert: {
+          id?: string
+          ip_hash: string
+          last_review_at?: string
+          review_count?: number
+        }
+        Update: {
+          id?: string
+          ip_hash?: string
+          last_review_at?: string
+          review_count?: number
+        }
+        Relationships: []
+      }
       reviews: {
         Row: {
           comment: string
@@ -64,6 +85,7 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
+      cleanup_old_rate_limits: { Args: never; Returns: undefined }
       has_role: {
         Args: {
           _role: Database["public"]["Enums"]["app_role"]
