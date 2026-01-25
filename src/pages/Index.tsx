@@ -98,7 +98,7 @@ const Index = () => {
   }
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/[0.02] via-background to-background dark:from-primary/[0.04]">
       <Header
         totalFaculty={faculty.length}
         totalDepartments={departments.length}
@@ -225,10 +225,10 @@ const Index = () => {
         onClose={() => setSelectedFaculty(null)}
       />
 
-      <footer className="border-t-2 border-border py-6 mt-12">
+      <footer className="border-t border-border/50 py-8 mt-12 bg-gradient-to-t from-muted/40 via-muted/10 to-transparent dark:from-background dark:via-card/20 dark:to-transparent">
         <div className="container text-center text-sm text-muted-foreground">
-          <p>Anonymous Faculty Review System • FAST-NUCES Islamabad</p>
-          <p className="mt-1">Reviews are completely anonymous and cannot be traced back to users.</p>
+          <p className="font-medium">Anonymous Faculty Review System • FAST-NUCES Islamabad</p>
+          <p className="mt-1.5 text-muted-foreground/80">Reviews are completely anonymous and cannot be traced back to users.</p>
         </div>
       </footer>
     </div>
