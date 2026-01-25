@@ -59,6 +59,11 @@ All colors MUST be HSL.
     --rating: 45 93% 47%;
     --rating-muted: 45 30% 80%;
 
+    /* Section shading - subtle variations */
+    --header-gradient-end: 220 70% 45%;
+    --footer-shade: 214 32% 94%;
+    --content-glow: 220 70% 97%;
+
     --sidebar: 210 40% 98%;
 
     --font-sans: 'Space Grotesk', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
@@ -124,6 +129,11 @@ All colors MUST be HSL.
 
     --rating: 45 93% 58%;
     --rating-muted: 45 20% 35%;
+
+    /* Section shading - dark mode */
+    --header-gradient-end: 210 90% 70%;
+    --footer-shade: 222 47% 9%;
+    --content-glow: 222 47% 13%;
 
     --sidebar: 222 47% 11%;
     --radius: 0.5rem;
