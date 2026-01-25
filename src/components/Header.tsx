@@ -33,14 +33,14 @@ export function Header({ totalFaculty, totalDepartments, faculty, onFacultyClick
         <div className="container py-6">
           <div className="flex items-start justify-between gap-4">
             <div>
-              <div className="flex items-center gap-3 mb-2">
+              <Link to="/" className="flex items-center gap-3 mb-2 hover:opacity-80 transition-opacity">
                 <div className="p-2 border-2 border-border bg-primary text-primary-foreground">
                   <GraduationCap className="w-6 h-6" />
                 </div>
                 <h1 className="text-2xl sm:text-3xl font-bold tracking-tight">
                   FAST-NUCES Islamabad
                 </h1>
-              </div>
+              </Link>
               <p className="text-lg text-muted-foreground">
                 Anonymous Faculty Review System
               </p>
