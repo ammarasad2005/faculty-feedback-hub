@@ -1,0 +1,1024 @@
+{
+  "School of Computing (Administration)": [
+    {
+      "Name": "Dr. Hasan Mujtaba",
+      "Email": "hasan.mujtaba@nu.edu.pk",
+      "Office": "C-201 A"
+    }
+  ],
+  "Department of Computer Science": [
+    {
+      "Name": "Dr. Muhammad Arshad Islam",
+      "Email": "arshad.islam@nu.edu.pk",
+      "Office": "D-101 D"
+    },
+    {
+      "Name": "Dr. Ahmad Raza Shahid",
+      "Email": "ahmadraza.shahid@nu.edu.pk",
+      "Office": "D-113 F"
+    },
+    {
+      "Name": "Dr. Hammad Majeed",
+      "Email": "hammad.majeed@nu.edu.pk",
+      "Office": "D-113 D"
+    },
+    {
+      "Name": "Dr. Akhtar Jamil",
+      "Email": "akhtar.jamil@nu.edu.pk",
+      "Office": "D-113 C"
+    },
+    {
+      "Name": "Dr. Ejaz Ahmed",
+      "Email": "ejaz.ahmed@nu.edu.pk",
+      "Office": "C-202 E"
+    },
+    {
+      "Name": "Dr. Imran Ashraf",
+      "Email": "imran.ashraf@isb.nu.edu.pk",
+      "Office": "C-205 E"
+    },
+    {
+      "Name": "Dr. Labiba Fahad",
+      "Email": "labiba.fahad@nu.edu.pk",
+      "Office": "D-113 A"
+    },
+    {
+      "Name": "Dr. Afia Zafar",
+      "Email": "afia.zafar@isb.nu.edu.pk",
+      "Office": "D-109 A"
+    },
+    {
+      "Name": "Dr. Ali Zeeshan Ijaz",
+      "Email": "ali.zeeshan@isb.nu.edu.pk",
+      "Office": "D-110 D"
+    },
+    {
+      "Name": "Dr. Basharat Hussain",
+      "Email": "basharat.hussain@isb.nu.edu.pk",
+      "Office": "D-113 E"
+    },
+    {
+      "Name": "Dr. Faisal Cheema",
+      "Email": "faisal.cheema@nu.edu.pk",
+      "Office": "C-502 E"
+    },
+    {
+      "Name": "Dr. Hina Ayaz",
+      "Email": "hina.ayaz@isb.nu.edu.pk",
+      "Office": "D-111 E"
+    },
+    {
+      "Name": "Dr. Mehreen Alam",
+      "Email": "mehreen.alam@nu.edu.pk",
+      "Office": "D-110 E"
+    },
+    {
+      "Name": "Dr. Muhammad Rizwan",
+      "Email": "muhammad.rizwan@isb.nu.edu.pk",
+      "Office": "D-109 H"
+    },
+    {
+      "Name": "Dr. Syed Qaiser Ali Shah",
+      "Email": "qaiser.ali@isb.nu.edu.pk",
+      "Office": "D-109 D"
+    },
+    {
+      "Name": "Dr. Tajwar Mehmood",
+      "Email": "tajwar.mehmood@nu.edu.pk",
+      "Office": "D-112 D"
+    },
+    {
+      "Name": "Ms. Amna Irum",
+      "Email": "amna.irum@nu.edu.pk",
+      "Office": "D-111 B"
+    },
+    {
+      "Name": "Ms. Noor ul Ain",
+      "Email": "noorul.ain@nu.edu.pk",
+      "Office": "C-205 G"
+    },
+    {
+      "Name": "Mr. Aqib Rehman",
+      "Email": "aqib.rehman@isb.nu.edu.pk",
+      "Office": "C-205 A"
+    },
+    {
+      "Name": "Mr. Fahad Shafique",
+      "Email": "fahad.shafique@isb.nu.edu.pk",
+      "Office": "C-205 F"
+    },
+    {
+      "Name": "Mr. Furqan Nasir",
+      "Email": "furqan.nasir@isb.nu.edu.pk",
+      "Office": "D-111 H"
+    },
+    {
+      "Name": "Mr. M. Aadil Ur Rehman",
+      "Email": "aadil.rehman@isb.nu.edu.pk",
+      "Office": "D-109 B"
+    },
+    {
+      "Name": "Mr. Majid Hussain",
+      "Email": "majid.hussain@nu.edu.pk",
+      "Office": "D-110 C"
+    },
+    {
+      "Name": "Mr. Muhammad Aamir Gulzar",
+      "Email": "aamir.gulzar@nu.edu.pk",
+      "Office": "C-203 G"
+    },
+    {
+      "Name": "Mr. Muhammad Almas Khan",
+      "Email": "muhammad.almas@nu.edu.pk",
+      "Office": "D-109 G"
+    },
+    {
+      "Name": "Mr. Muhammad Farrukh Bashir",
+      "Email": "farrukh.bashir@isb.nu.edu.pk",
+      "Office": "D-111 G"
+    },
+    {
+      "Name": "Mr. Muhammad Owais Idrees",
+      "Email": "Owais.idrees@nu.edu.pk",
+      "Office": "C-205 B"
+    },
+    {
+      "Name": "Mr. Shams Farooq",
+      "Email": "shams.farooq@nu.edu.pk",
+      "Office": "C-204 F"
+    },
+    {
+      "Name": "Mr. Shehreyar Rashid",
+      "Email": "shehreyar.rashid@nu.edu.pk",
+      "Office": "D-111 C"
+    },
+    {
+      "Name": "Mr. Syed Muhammad Aqleem Abbas",
+      "Email": "aqleem.abbas@isb.nu.edu.pk",
+      "Office": "D-110 B"
+    },
+    {
+      "Name": "Mr. Syed Muhammad Saad Salman",
+      "Email": "saad.salman@nu.edu.pk",
+      "Office": "D-112 G"
+    },
+    {
+      "Name": "Ms. Bushra Fatima Tariq",
+      "Email": "bushra.fatima@nu.edu.pk",
+      "Office": "D-110 G"
+    },
+    {
+      "Name": "Ms. Hira Mastoor",
+      "Email": "hira.mastoor@nu.edu.pk",
+      "Office": "D-109 F"
+    },
+    {
+      "Name": "Ms. Marium Hida",
+      "Email": "marium.hida@nu.edu.pk",
+      "Office": "D-112 C"
+    },
+    {
+      "Name": "Ms. Maryam Shahbaz",
+      "Email": "maryam.shahbaz@nu.edu.pk",
+      "Office": "D-110 F"
+    },
+    {
+      "Name": "Ms. Munazza Nida",
+      "Email": "munazza.nida@isb.nu.edu.pk",
+      "Office": "D-112 H"
+    },
+    {
+      "Name": "Ms. Nirmal Tariq",
+      "Email": "nirmal.tariq@nu.edu.pk",
+      "Office": "D-112 F"
+    },
+    {
+      "Name": "Ms. Rabail Zahid",
+      "Email": "rabail.zahid@isb.nu.edu.pk",
+      "Office": "D-112 B"
+    },
+    {
+      "Name": "Ms. Sana Razzaq",
+      "Email": "sana.razzaq@nu.edu.pk",
+      "Office": "D-109 C"
+    },
+    {
+      "Name": "Ms. Urooj Ghani",
+      "Email": "urooj.ghani@nu.edu.pk",
+      "Office": "D-111 F"
+    },
+    {
+      "Name": "Mr. Abdullah Bin Zahid",
+      "Email": "abdullahbin.zahid@isb.nu.edu.pk",
+      "Office": "Rawal II"
+    },
+    {
+      "Name": "Mr. Ali Umer",
+      "Email": "ali.umer@isb.nu.edu.pk",
+      "Office": "D-620 G"
+    },
+    {
+      "Name": "Mr. Hamza Mahmood Sheikh",
+      "Email": "hamza.mahmood@isb.nu.edu.pk",
+      "Office": "D-513 A"
+    },
+    {
+      "Name": "Mr. Imran Khan",
+      "Email": "imran.khan@isb.nu.edu.pk",
+      "Office": "C-203 A"
+    },
+    {
+      "Name": "Mr. Muhammad Hamza",
+      "Email": "muhammad.hamza@isb.nu.edu.pk",
+      "Office": "C-203 A"
+    },
+    {
+      "Name": "Mr. Muhammad Ismail",
+      "Email": "muhammad.ismail@isb.nu.edu.pk",
+      "Office": "D-513 B"
+    },
+    {
+      "Name": "Mr. Muhammad Talha Sharif",
+      "Email": "talha.sharif@isb.nu.edu.pk",
+      "Office": "D-513 B"
+    },
+    {
+      "Name": "Mr. Muhammad Umair Khalid",
+      "Email": "umair.khalid@isb.nu.edu.pk",
+      "Office": "D-620 G"
+    },
+    {
+      "Name": "Mr. Usama Bin Imran",
+      "Email": "usama.imran@isb.nu.edu.pk",
+      "Office": "D-513 F"
+    },
+    {
+      "Name": "Mr. Zahoor Ul Hassan",
+      "Email": "zahoor.hassan@isb.nu.edu.pk",
+      "Office": "D-513 C"
+    },
+    {
+      "Name": "Ms. Amina Ashfaq",
+      "Email": "amina.ashfaq@isb.nu.edu.pk",
+      "Office": "D-513 E"
+    },
+    {
+      "Name": "Ms. Asma Tufail",
+      "Email": "asma.tufail@isb.nu.edu.pk",
+      "Office": "D-513 G"
+    },
+    {
+      "Name": "Ms. Hajira Uzair",
+      "Email": "hajira.uzair@isb.nu.edu.pk",
+      "Office": "D-513 G"
+    },
+    {
+      "Name": "Ms. Laiba Noor",
+      "Email": "laiba.noor@isb.nu.edu.pk",
+      "Office": "C-110 C"
+    },
+    {
+      "Name": "Ms. Maryam Khalid",
+      "Email": "maryam.khalid@isb.nu.edu.pk",
+      "Office": "C-110 C"
+    },
+    {
+      "Name": "Ms. Syeda Mahnoor Javed",
+      "Email": "mahnoor.javed@nu.edu.pk",
+      "Office": "C-204 A"
+    },
+    {
+      "Name": "Ms. Tajiya Daarain",
+      "Email": "tajiya.daarain@isb.nu.edu.pk",
+      "Office": "C-204 A"
+    },
+    {
+      "Name": "Ms. Zill-E-Huma",
+      "Email": "zille.huma@isb.nu.edu.pk",
+      "Office": "C-110 C"
+    }
+  ],
+  "Department of Artificial Intelligence & Data Science": [
+    {
+      "Name": "Dr. Ahmad Din",
+      "Email": "ahmad.din@nu.edu.pk",
+      "Office": "D-201 C"
+    },
+    {
+      "Name": "Dr. Mirza Omer Beg",
+      "Email": "omer.beg@nu.edu.pk",
+      "Office": "C-205 C"
+    },
+    {
+      "Name": "Dr. Muhammad Asif Naeem",
+      "Email": "asif.naeem@nu.edu.pk",
+      "Office": "D-214 C"
+    },
+    {
+      "Name": "Dr. Waseem Shahzad",
+      "Email": "waseem.shahzad@nu.edu.pk",
+      "Office": "Director office"
+    },
+    {
+      "Name": "Dr. Muhammad Ishtiaq",
+      "Email": "m.ishtiaq@nu.edu.pk",
+      "Office": "D-214 D"
+    },
+    {
+      "Name": "Dr. Mateen Yaqoob",
+      "Email": "mateen.yaqoob@isb.nu.edu.pk",
+      "Office": "D-212 D"
+    },
+    {
+      "Name": "Dr. Muhammad Nouman Noor",
+      "Email": "nouman.noor@isb.nu.edu.pk",
+      "Office": "D-202 E"
+    },
+    {
+      "Name": "Dr. Noshina Tariq",
+      "Email": "noshina.tariq@isb.nu.edu.pk",
+      "Office": "D-202 D"
+    },
+    {
+      "Name": "Dr. Qurat Ul Ain",
+      "Email": "quratul.ain@isb.nu.edu.pk",
+      "Office": "D-212 E"
+    },
+    {
+      "Name": "Dr. Zohair Ahmed",
+      "Email": "zohair.ahmed@isb.nu.edu.pk",
+      "Office": "C-203 B"
+    },
+    {
+      "Name": "Mr. Adil Majeed",
+      "Email": "adil.majeed@nu.edu.pk",
+      "Office": "D-204 E"
+    },
+    {
+      "Name": "Mr. Ahmad Raza",
+      "Email": "ahmad.raza@isb.nu.edu.pk",
+      "Office": "D-202 C"
+    },
+    {
+      "Name": "Mr. Mohsin Khan",
+      "Email": "mohsin.khan@isb.nu.edu.pk",
+      "Office": "C-202 G"
+    },
+    {
+      "Name": "Mr. Muhammad Sohail Abbas",
+      "Email": "sohail.abbas@isb.nu.edu.pk",
+      "Office": "D-204 G"
+    },
+    {
+      "Name": "Mr. Shahbaz Hassan",
+      "Email": "shahbaz.hassan@isb.nu.edu.pk",
+      "Office": "D-212 C"
+    },
+    {
+      "Name": "Mr. Shoaib Saleem Khattak ",
+      "Email": "shoaib.saleem@nu.edu.pk",
+      "Office": "D-204 H"
+    },
+    {
+      "Name": "Mr. Ubaid Ur Rehman",
+      "Email": "ubaid.rehman@isb.nu.edu.pk",
+      "Office": "D-204 A"
+    },
+    {
+      "Name": "Mr. Usama Imtiaz",
+      "Email": "Usama.Imtiaz@isb.nu.edu.pk",
+      "Office": "D-112 E"
+    },
+    {
+      "Name": "Ms. Azka Atiq",
+      "Email": "azka.atiq@isb.nu.edu.pk",
+      "Office": "C-202 A"
+    },
+    {
+      "Name": "Ms. Kainat Iqbal",
+      "Email": "kainat.Iqbal@isb.nu.edu.pk",
+      "Office": "D-212 F"
+    },
+    {
+      "Name": "Ms. Kanza Hamid",
+      "Email": "kanza.hamid@isb.nu.edu.pk",
+      "Office": "D-204 F"
+    },
+    {
+      "Name": "Ms. Khadija Mahmood",
+      "Email": "khadija.mahmood@nu.edu.pk",
+      "Office": "D-202 H"
+    },
+    {
+      "Name": "Ms. Laraib Afzaal",
+      "Email": "laraib.afzaal@nu.edu.pk",
+      "Office": "D-202 B"
+    },
+    {
+      "Name": "Ms. Mahnoor Tariq",
+      "Email": "mahnoor.tariq@isb.nu.edu.pk",
+      "Office": "D-212 B"
+    },
+    {
+      "Name": "Ms. Mariam Bint Imran",
+      "Email": "mariam.imran@isb.nu.edu.pk",
+      "Office": "D-202 A"
+    },
+    {
+      "Name": "Ms. Maryam Sana",
+      "Email": "maryam.sana@isb.nu.edu.pk",
+      "Office": "C-203 F"
+    },
+    {
+      "Name": "Ms. Mehreen Javaid",
+      "Email": "mehreen.javaid@nu.edu.pk",
+      "Office": "D-202 G"
+    },
+    {
+      "Name": "Ms. Saira Qamar",
+      "Email": "saira.qamar@nu.edu.pk",
+      "Office": "D-212 G"
+    },
+    {
+      "Name": "Ms. Umarah Qaseem",
+      "Email": "umarah.qaseem@isb.nu.edu.pk",
+      "Office": "D-202 F"
+    },
+    {
+      "Name": "Ms. Zonera Anjum",
+      "Email": "zonera.anjum@isb.nu.edu.pk",
+      "Office": "D-204 B"
+    },
+    {
+      "Name": "Mr. Muhammad Atif Saeed",
+      "Email": "atif.saeed@isb.nu.edu.pk",
+      "Office": "D-111 A"
+    },
+    {
+      "Name": "Mr. Abdul Hammad Rasheed",
+      "Email": "hammad.rasheed@isb.nu.edu.pk",
+      "Office": "D-513 A"
+    },
+    {
+      "Name": "Mr. Abdul Wahab Khan",
+      "Email": "abdul.wahab@isb.nu.edu.pk",
+      "Office": "D-513 C"
+    },
+    {
+      "Name": "Mr. Ali Hamza",
+      "Email": "ali.hamza@isb.nu.edu.pk",
+      "Office": "D-513 D"
+    },
+    {
+      "Name": "Mr. Muhammad Ammar Masood",
+      "Email": "ammar.masood@isb.nu.edu.pk",
+      "Office": "D-513 A"
+    },
+    {
+      "Name": "Mr. Talha Tariq",
+      "Email": "talha.tariq@isb.nu.edu.pk",
+      "Office": "D-513 D"
+    },
+    {
+      "Name": "Ms. Maryam Hussain",
+      "Email": "maryam.hussain@isb.nu.edu.pk",
+      "Office": "C-108 A"
+    },
+    {
+      "Name": "Ms. Mubrra Asma",
+      "Email": "mubrra.asma@isb.nu.edu.pk",
+      "Office": "C-513 C"
+    },
+    {
+      "Name": "Ms. Nabeelah Maryam",
+      "Email": "nabeelah.maryam@isb.nu.edu.pk",
+      "Office": "D-513 F"
+    },
+    {
+      "Name": "Ms. Nayyera Wasim",
+      "Email": "nayyera.wasim@isb.nu.edu.pk",
+      "Office": "C-108 A"
+    },
+    {
+      "Name": "Ms. Palwasha Zahid",
+      "Email": "palwasha.zahid@isb.nu.edu.pk",
+      "Office": "C-513 B"
+    },
+    {
+      "Name": "Ms. Sidra Fayyaz",
+      "Email": "sidra.fayyaz@isb.nu.edu.pk",
+      "Office": "C-513 A"
+    }
+  ],
+  "Department of Software Engineering": [
+    {
+      "Name": "Dr. Usman Habib",
+      "Email": "usman.habib@nu.edu.pk",
+      "Office": "C-501 C"
+    },
+    {
+      "Name": "Dr. Naveed Ahmad",
+      "Email": "naveed.ahmad@nu.edu.pk",
+      "Office": "C-204 C"
+    },
+    {
+      "Name": "Dr. Asif Muhammad",
+      "Email": "asif.muhammad@isb.nu.edu.pk",
+      "Office": "D-109 E"
+    },
+    {
+      "Name": "Dr. Atif Aftab Ahmed Jilani",
+      "Email": "atif.jilani@nu.edu.pk",
+      "Office": "C-502 C"
+    },
+    {
+      "Name": "Dr. Behjat Zuhaira",
+      "Email": "behjat.zuhaira@nu.edu.pk",
+      "Office": "C-203 C"
+    },
+    {
+      "Name": "Dr. Isma Ul Hassan",
+      "Email": "isma.hassan@nu.edu.pk",
+      "Office": "D-111 D"
+    },
+    {
+      "Name": "Dr. Muhammad Bilal",
+      "Email": "muhammad.bilal@isb.nu.edu.pk",
+      "Office": "C-503 E"
+    },
+    {
+      "Name": "Dr. Shahela Saif",
+      "Email": "shahela.saif@nu.edu.pk",
+      "Office": "C-505 C"
+    },
+    {
+      "Name": "Dr. Uzma Mahar",
+      "Email": "uzma.mahar@nu.edu.pk",
+      "Office": "C-202 F"
+    },
+    {
+      "Name": "Dr. Zeshan Khan",
+      "Email": "zeshan.khan@nu.edu.pk",
+      "Office": "C-505 E"
+    },
+    {
+      "Name": "Mr. Bilal Khalid Dar",
+      "Email": "bilal.khalid@nu.edu.pk",
+      "Office": "C-502 B"
+    },
+    {
+      "Name": "Mr. Irfan Ullah",
+      "Email": "irfan.ullah@nu.edu.pk",
+      "Office": "C-504 F"
+    },
+    {
+      "Name": "Mr. Junaid Ali khan",
+      "Email": "junaid.ali@isb.nu.edu.pk",
+      "Office": "C-505 B"
+    },
+    {
+      "Name": "Mr. Pir Sami Ullah Shah",
+      "Email": "samiullah.shah@nu.edu.pk",
+      "Office": "C-503 B"
+    },
+    {
+      "Name": "Mr. Zaheer Ul Hussain Sani",
+      "Email": "zaheer.sani@nu.edu.pk",
+      "Office": "C-505 F"
+    },
+    {
+      "Name": "Ms. Anum kaleem",
+      "Email": "anum.kaleem@isb.nu.edu.pk",
+      "Office": "C-504 B"
+    },
+    {
+      "Name": "Ms. Fatima Gillani",
+      "Email": "fatima.gillani@isb.nu.edu.pk",
+      "Office": "C-505 A"
+    },
+    {
+      "Name": "Ms. Laiba Imran",
+      "Email": "laiba.imran@nu.edu.pk\n\n",
+      "Office": "C-505 G"
+    },
+    {
+      "Name": "Ms. Momina Behzad",
+      "Email": "momina.behzad@isb.nu.edu.pk",
+      "Office": "C-504 A"
+    },
+    {
+      "Name": "Ms. Nigar Azhar Butt",
+      "Email": "nigar.azhar@isb.nu.edu.pk",
+      "Office": "C-503 F"
+    },
+    {
+      "Name": "Ms. Saba Kanwal",
+      "Email": "saba.kanwal@nu.edu.pk",
+      "Office": "C-504 G"
+    },
+    {
+      "Name": "Ms. Zoya Sumbul Zaheer",
+      "Email": "zoya.sumbul@nu.edu.pk",
+      "Office": "C-502 F"
+    },
+    {
+      "Name": "Mr. Akbar Ali Shah",
+      "Email": "akbar.ali@isb.nu.edu.pk",
+      "Office": "Rawal II"
+    },
+    {
+      "Name": "Mr. Muhammad Muneeb Baig",
+      "Email": "muneeb.baig@isb.nu.edu.pk",
+      "Office": "C-502 A"
+    },
+    {
+      "Name": "Mr. Syed Daniyal Hussain Shah",
+      "Email": "daniyal.hussain@isb.nu.edu.pk",
+      "Office": "C-502 A"
+    },
+    {
+      "Name": "Ms. Arige Anjum",
+      "Email": "arige.anjum@isb.nu.edu.pk",
+      "Office": "C-503 A"
+    },
+    {
+      "Name": "Ms. Hifza Umer",
+      "Email": "Hifza.Umer@isb.nu.edu.pk",
+      "Office": "C-503 A"
+    },
+    {
+      "Name": "Ms. Noor ul Ain",
+      "Email": "Noor.ulAin@isb.nu.edu.pk",
+      "Office": "C-502 G"
+    },
+    {
+      "Name": "Ms. Zoya Mahboob",
+      "Email": "Zoya.Mahboob@isb.nu.edu.pk",
+      "Office": "C-502 G"
+    }
+  ],
+  "Department of Cyber Security": [
+    {
+      "Name": "Dr. Qaisar Shafi",
+      "Email": "qaisar.shafi@nu.edu.pk",
+      "Office": "D-208 A"
+    },
+    {
+      "Name": "Dr. Muhammad Asim",
+      "Email": "muhammad.asim@nu.edu.pk",
+      "Office": "C-204 E"
+    },
+    {
+      "Name": "Dr. Subhan Ullah",
+      "Email": "subhan.ullah@nu.edu.pk",
+      "Office": "C-503 C"
+    },
+    {
+      "Name": "Dr. Zafar Iqbal",
+      "Email": "zafar.iqbal@isb.nu.edu.pk",
+      "Office": "D-205 D"
+    },
+    {
+      "Name": "Dr. Sana Aurangzeb",
+      "Email": "sana.aurangzeb@nu.edu.pk",
+      "Office": "D-205 E"
+    },
+    {
+      "Name": "Mr. Jawad Hassan Nisar",
+      "Email": "jawad.hassan@nu.edu.pk",
+      "Office": "D-204 D"
+    },
+    {
+      "Name": "Mr. Arslan Aslam",
+      "Email": "arslan.aslam@nu.edu.pk",
+      "Office": "D-205 B"
+    },
+    {
+      "Name": "Mr. Mehmood ul Hassan",
+      "Email": "mehmood.hassan@nu.edu.pk",
+      "Office": "D-204 C"
+    },
+    {
+      "Name": "Ms. Amina Siddique",
+      "Email": "amina.siddique@nu.edu.pk",
+      "Office": "D-205 H"
+    },
+    {
+      "Name": "Ms. Farheen Tabassum",
+      "Email": "farheen.tabassum@isb.nu.edu.pk",
+      "Office": "D-205 C"
+    },
+    {
+      "Name": "Ms. Hina Binte Haq",
+      "Email": "hina.haq@nu.edu.pk",
+      "Office": "D-205 F"
+    },
+    {
+      "Name": "Ms. Naveen Khan",
+      "Email": "naveen.khan@isb.nu.edu.pk",
+      "Office": "D-205 A"
+    },
+    {
+      "Name": "Ms. Sadia Saad",
+      "Email": "sadia.saad@nu.edu.pk",
+      "Office": "D-205 G"
+    },
+    {
+      "Name": "Ms. Safoora Qurban",
+      "Email": "safoora.qurban@isb.nu.edu.pk",
+      "Office": "C-204 B"
+    },
+    {
+      "Name": "Mr. Ahsan Shakeel Malik",
+      "Email": "ahsan.shakeel@isb.nu.edu.pk",
+      "Office": "D-513 H"
+    },
+    {
+      "Name": "Mr. Muhammad Suleman Saboor",
+      "Email": "suleman.saboor@isb.nu.edu.pk",
+      "Office": "D-513 H"
+    },
+    {
+      "Name": "Mr. Nawfal Waqar",
+      "Email": "nawfal.waqar@isb.nu.edu.pk",
+      "Office": "C-204 G"
+    },
+    {
+      "Name": "Mr. Usman Naeem",
+      "Email": "usman.naeem@isb.nu.edu.pk",
+      "Office": "C-204 G"
+    },
+    {
+      "Name": "Ms. Aneeqa Khalil",
+      "Email": "aneeqa.khalil@isb.nu.edu.pk",
+      "Office": "C-202 B"
+    },
+    {
+      "Name": "Ms. Syeda Rubab Zainab",
+      "Email": "rubab.zainab@isb.nu.edu.pk",
+      "Office": "D-112 A"
+    }
+  ],
+  "Department of Science And Humanities": [
+    {
+      "Name": "Aisha",
+      "Email": "aisha.ijaz@nu.edu.pk",
+      "Office": "B-208"
+    },
+    {
+      "Name": "Maria Mazhar",
+      "Email": "maria.mazhar@isb.nu.edu.pk",
+      "Office": "B-225"
+    },
+    {
+      "Name": "Aqsa Malik",
+      "Email": "aqsa.malik@nu.edu.pk",
+      "Office": "B-232"
+    },
+    {
+      "Name": "Arisha Wasim",
+      "Email": "arisha.wassim@nu.edu.pk",
+      "Office": "B-231"
+    },
+    {
+      "Name": "Abdul Basit",
+      "Email": "abdul.basit@isb.nu.edu.pk",
+      "Office": "B-117"
+    },
+    {
+      "Name": "Eeman Mirza",
+      "Email": "eeman.mirza@nu.edu.pk",
+      "Office": "B-220"
+    },
+    {
+      "Name": "Farah Jabeen",
+      "Email": "farah.awan@nu.edu.pk",
+      "Office": "A-215-G"
+    },
+    {
+      "Name": "Ghalia",
+      "Email": "ghalia.gohar@nu.edu.pk",
+      "Office": "B-231"
+    },
+    {
+      "Name": "Hajra Khalid",
+      "Email": "hajra.khalid@nu.edu.pk",
+      "Office": "B-220"
+    },
+    {
+      "Name": "Halla Waheed",
+      "Email": "halla.waheed@nu.edu.pk",
+      "Office": "B-231"
+    },
+    {
+      "Name": "Hamda khan",
+      "Email": "hamda.khan@nu.edu.pk",
+      "Office": "B-201"
+    },
+    {
+      "Name": "Hasham Ahmad",
+      "Email": "hasham.ahmad@nu.edu.pk",
+      "Office": "B-226"
+    },
+    {
+      "Name": "Hazber",
+      "Email": "hazber.samson@isb.nu.edu.pk",
+      "Office": "B-117"
+    },
+    {
+      "Name": "Hafiz Muhammad Hammad",
+      "Email": "hafiz.hammad@isb.nu.edu.pk",
+      "Office": "B-215"
+    },
+    {
+      "Name": "Khadija Farooq",
+      "Email": "khadija.farooq@nu.edu.pk",
+      "Office": "B-212"
+    },
+    {
+      "Name": "Khalil Ullah",
+      "Email": "khalil.awan@nu.edu.pk",
+      "Office": "B-118"
+    },
+    {
+      "Name": "Maryam Abid",
+      "Email": "maryam.abid@nu.edu.pk",
+      "Office": "B-232"
+    },
+    {
+      "Name": "Mehreen",
+      "Email": "mehreen@nu.edu.pk",
+      "Office": "B231"
+    },
+    {
+      "Name": "Mehwish Hassan",
+      "Email": "mehwish.hassan@nu.edu.pk",
+      "Office": "B-209"
+    },
+    {
+      "Name": "Memoona Rasool",
+      "Email": "maimoona.rasool@nu.edu.pk",
+      "Office": "A-114G"
+    },
+    {
+      "Name": "Momal Saleem",
+      "Email": "momal.saleem@nu.edu.pk",
+      "Office": "B-231"
+    },
+    {
+      "Name": "Muhammad Ali",
+      "Email": "m.ali@nu.edu.pk",
+      "Office": "B-203"
+    },
+    {
+      "Name": "Muhammad Ajmal",
+      "Email": "muhammad.ajmal@nu.edu.pk",
+      "Office": "B-226"
+    },
+    {
+      "Name": "Muhammad Ibrahim",
+      "Email": "m.ibraheem@nu.edu.pk",
+      "Office": "B-215"
+    },
+    {
+      "Name": "Muhammad Tayyeb Nadeem",
+      "Email": "tayyeb.nadeem@nu.edu.pk",
+      "Office": "B-202"
+    },
+    {
+      "Name": "Muhammad Usman Ashraf",
+      "Email": "usman.ashraf@nu.edu.pk",
+      "Office": "B-206"
+    },
+    {
+      "Name": "Muhammad Usman Rashid",
+      "Email": "usman.rashid@nu.edu.pk",
+      "Office": "B-226"
+    },
+    {
+      "Name": "Rabia Islam",
+      "Email": "rabia.islam@isb.nu.edu.pk",
+      "Office": "B-222"
+    },
+    {
+      "Name": "Lubna",
+      "Email": "lubna@nu.edu.pk",
+      "Office": "B-225"
+    },
+    {
+      "Name": "Sadia Nauman",
+      "Email": "sadia.nauman@nu.edu.pk",
+      "Office": "B-220"
+    },
+    {
+      "Name": "Sara Aziz",
+      "Email": "sara.aziz@nu.edu.pk",
+      "Office": "B-207"
+    },
+    {
+      "Name": "Sana Ilyas",
+      "Email": "sanaa.ilyas@nu.edu.pk",
+      "Office": "A-216G"
+    },
+    {
+      "Name": "Sehrish Hassan",
+      "Email": "sehrish.hassan@nu.edu.pk",
+      "Office": "A-111E"
+    },
+    {
+      "Name": "Shahzad Mahmood",
+      "Email": "shahzad.mahmood@nu.edu.pk",
+      "Office": "B-204"
+    },
+    {
+      "Name": "Sumera Abbas",
+      "Email": "sumera.abbas@nu.edu.pk",
+      "Office": "G-111"
+    },
+    {
+      "Name": "Sumaira Azhar",
+      "Email": "sumaira.azhar@nu.edu.pk",
+      "Office": "B-231"
+    },
+    {
+      "Name": "Sumayyah Malik",
+      "Email": "sumayyah.malik@nu.edu.pk",
+      "Office": "A-307"
+    },
+    {
+      "Name": "Syed Irfan Shah",
+      "Email": "irfan.shah@nu.edu.pk",
+      "Office": "B-205"
+    },
+    {
+      "Name": "Tayyaba Waseem",
+      "Email": "tayyaba.waseem@isb.nu.edu.pk",
+      "Office": "B-225"
+    },
+    {
+      "Name": "Zirwa",
+      "Email": "zirva.shabbir@isb.nu.edu.pk",
+      "Office": "B-225"
+    },
+    {
+      "Name": "Ms. Iqra Fatima",
+      "Email": "iqra.fatima@isb.nu.edu.pk",
+      "Office": "B-225"
+    },
+    {
+      "Name": "Ms. Sadia Sahar",
+      "Email": "sadia.sahar@isb.nu.edu.pk",
+      "Office": "B-225"
+    },
+    {
+      "Name": "Faisal ur rahman",
+      "Email": "faisal.rehman@isb.nu.edu.pk",
+      "Office": "B-215"
+    },
+    {
+      "Name": "Muhammad Saqib",
+      "Email": "muhammad.saqib@isb.nu.edu.pk",
+      "Office": "B-215"
+    },
+    {
+      "Name": "Muhammad Umer",
+      "Email": "muhammad.umer@isb.nu.edu.pk",
+      "Office": "Not Listed"
+    },
+    {
+      "Name": "Shan e Batool",
+      "Email": "shan.batool@isb.nu.edu.pk",
+      "Office": "Not Listed"
+    },
+    {
+      "Name": "Sayeda Hassan",
+      "Email": "sayeda.hassan@isb.nu.edu.pk",
+      "Office": "Not Listed"
+    },
+    {
+      "Name": "Sayeda Mahnoor Ali",
+      "Email": "mahnoor.ali@isb.nu.edu.pk",
+      "Office": "Not Listed"
+    },
+    {
+      "Name": "Tehmina ijaz",
+      "Email": "tehmina.ejaz@isb.nu.edu.pk",
+      "Office": "Not Listed"
+    },
+    {
+      "Name": "Aseefa Zareen",
+      "Email": "asefa.zareen@isb.nu.edu.pk",
+      "Office": "Not Listed"
+    },
+    {
+      "Name": "Rao M. Touqeer",
+      "Email": "muhammad.touqeer@isb.nu.edu.pk",
+      "Office": "Not Listed"
+    },
+    {
+      "Name": "Waqar Ahmad",
+      "Email": "waqar.ahmad@isb.nu.edu.pk",
+      "Office": "Not Listed"
+    }
+  ]
+}
