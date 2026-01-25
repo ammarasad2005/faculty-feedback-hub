@@ -29,12 +29,12 @@ export function Header({ totalFaculty, totalDepartments, faculty, onFacultyClick
 
   return (
     <>
-      <header className="border-b-2 border-border bg-card">
+      <header className="border-b border-border bg-gradient-to-br from-card via-card to-primary/5 dark:to-primary/10">
         <div className="container py-6">
           <div className="flex items-start justify-between gap-4">
             <div>
               <Link to="/" className="flex items-center gap-3 mb-2 hover:opacity-80 transition-opacity">
-                <div className="p-2 border-2 border-border bg-primary text-primary-foreground">
+                <div className="p-2 rounded-lg border border-primary/20 bg-primary text-primary-foreground shadow-md">
                   <GraduationCap className="w-6 h-6" />
                 </div>
                 <h1 className="text-2xl sm:text-3xl font-bold tracking-tight">
