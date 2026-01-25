@@ -4,7 +4,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { StarRating } from './StarRating';
 import { ProcessedFaculty } from '@/hooks/useFacultyData';
 import { cn } from '@/lib/utils';
-
+import { MapPin } from 'lucide-react';
 interface FacultyCardProps {
   faculty: ProcessedFaculty;
   stats?: { total: number; avg: number };
@@ -52,6 +52,13 @@ export const FacultyCard = React.forwardRef<HTMLDivElement, FacultyCardProps>(
             <p className="text-sm text-muted-foreground truncate mt-1">
               {faculty.department}
             </p>
+            
+            {faculty.office && (
+              <p className="text-xs text-muted-foreground/70 flex items-center gap-1 mt-0.5">
+                <MapPin className="w-3 h-3" />
+                {faculty.office}
+              </p>
+            )}
             
             <div className="flex items-center gap-2 mt-2">
               {stats && stats.total > 0 ? (
