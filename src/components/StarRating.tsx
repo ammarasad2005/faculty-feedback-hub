@@ -40,7 +40,7 @@ export const StarRating = React.forwardRef<HTMLDivElement, StarRatingProps>(
               className={cn(
                 sizeClasses[size],
                 'transition-colors',
-                isFilled ? 'fill-foreground text-foreground' : 'text-muted-foreground/40'
+                isFilled ? 'fill-rating text-rating' : 'text-rating-muted'
               )}
             />
           </button>
