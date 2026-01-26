@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react';
 import { Header } from '@/components/Header';
 import { SearchFilter } from '@/components/SearchFilter';
 import { FacultyCard } from '@/components/FacultyCard';
+import { FacultyCarousel } from '@/components/FacultyCarousel';
 import { FacultyModal } from '@/components/FacultyModal';
 import { useFacultyData, ProcessedFaculty } from '@/hooks/useFacultyData';
 import { useAllReviewStats } from '@/hooks/useReviews';
@@ -15,12 +16,14 @@ import {
   SelectValue,
 } from '@/components/ui/select';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 const PAGE_SIZE_OPTIONS = [12, 24, 48];
 
 const Index = () => {
   const { faculty, departments, loading, error } = useFacultyData();
   const { data: reviewStats } = useAllReviewStats();
+  const isMobile = useIsMobile();
   
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedDepartment, setSelectedDepartment] = useState('all');
@@ -155,17 +158,25 @@ const Index = () => {
               </div>
             </div>
 
-            <div className="grid gap-3 sm:gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-              {paginatedFaculty.map((member, index) => (
-                <FacultyCard
-                  key={member.id}
-                  faculty={member}
-                  stats={reviewStats?.[member.id]}
-                  onClick={() => setSelectedFaculty(member)}
-                  index={index}
-                />
-              ))}
-            </div>
+            {isMobile ? (
+              <FacultyCarousel
+                faculty={paginatedFaculty}
+                reviewStats={reviewStats}
+                onFacultyClick={setSelectedFaculty}
+              />
+            ) : (
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {paginatedFaculty.map((member, index) => (
+                  <FacultyCard
+                    key={member.id}
+                    faculty={member}
+                    stats={reviewStats?.[member.id]}
+                    onClick={() => setSelectedFaculty(member)}
+                    index={index}
+                  />
+                ))}
+              </div>
+            )}
 
             {filteredFaculty.length === 0 && (
               <div className="text-center py-12 border-2 border-dashed border-border mt-6">
