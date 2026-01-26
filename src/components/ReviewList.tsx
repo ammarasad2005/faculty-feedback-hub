@@ -43,7 +43,11 @@ export function ReviewList({ reviews, isLoading }: ReviewListProps) {
               {format(new Date(review.created_at), 'MMM d, yyyy')}
             </span>
           </div>
-          <p className="text-foreground leading-relaxed">{review.comment}</p>
+          {review.comment ? (
+            <p className="text-foreground leading-relaxed">{review.comment}</p>
+          ) : (
+            <p className="text-muted-foreground italic text-sm">Rating only</p>
+          )}
         </div>
       ))}
     </div>
