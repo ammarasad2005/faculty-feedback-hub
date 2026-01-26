@@ -1,104 +1,132 @@
 
-## Improve Mobile UI Experience
 
-### Overview
-Redesign the mobile layout to feel cleaner and less overwhelming by reorganizing the header, simplifying navigation, and adding better spacing.
+# Page Transition Animations Implementation Plan
 
-### Current Issues
-- Header has too many buttons visible at once, causing them to wrap awkwardly on narrow screens
-- Stats (faculty count, department count) appear cramped side-by-side
-- Navigation buttons show both icons and text, consuming valuable horizontal space
-- Overall information density is too high for comfortable mobile viewing
+## Overview
 
-### Proposed Changes
+Add smooth page transition animations when navigating between routes (Index, Leaderboard, NotFound) for a more polished user experience. The implementation will leverage the existing Tailwind animation utilities already defined in the codebase.
 
-#### 1. Header Reorganization
+## Approach
 
-**Mobile Navigation (below 640px):**
-- Keep only theme toggle and a hamburger menu icon visible
-- Move Leaderboard, Recent Reviews (bell), and Admin Login into a dropdown/sheet menu
-- Stack stats vertically on mobile
+Since the project already has well-defined animation keyframes (`fade-in`, `fade-out`, `scale-in`, etc.) in `tailwind.config.ts`, we will create a lightweight page transition wrapper component that applies these animations on route changes without adding new dependencies.
 
-**Before:**
-```
-[Logo] FAST-NUCES Islamabad     [☀️][Leaderboard][🔔][Login]
-Anonymous Faculty Review System
-97 Faculty Members  12 Departments
-```
+## Implementation Steps
 
-**After (mobile):**
-```
-[Logo] FAST-NUCES Islamabad           [☀️][☰]
-Anonymous Faculty Review System
-97 Faculty Members
-12 Departments
+### 1. Create a PageTransition Wrapper Component
+
+Create a new component `src/components/PageTransition.tsx` that:
+- Wraps page content with animation classes
+- Triggers the `animate-fade-in` animation on mount
+- Uses the existing `fade-in` keyframe with `translateY` for a subtle slide-up effect
+
+```text
++----------------------------------+
+|         PageTransition           |
+|  +--------------------------+    |
+|  |   opacity: 0 -> 1        |    |
+|  |   translateY: 10px -> 0  |    |
+|  |                          |    |
+|  |   [ Page Content ]       |    |
+|  |                          |    |
+|  +--------------------------+    |
++----------------------------------+
 ```
 
-#### 2. Mobile Menu Sheet
-Create a slide-out menu (using existing Sheet component) containing:
-- Leaderboard link
-- Recent Reviews button
-- Admin Login/Logout
-- Clean, touch-friendly spacing
+### 2. Apply PageTransition to Each Page
 
-#### 3. Stats Layout
-- Stack vertically on mobile (flex-col on small screens)
-- Use `flex-col sm:flex-row` pattern
+Wrap the root element of each page component:
+- `src/pages/Index.tsx` - Wrap the main container
+- `src/pages/Leaderboard.tsx` - Wrap the main container
+- `src/pages/NotFound.tsx` - Wrap the error display
 
-#### 4. Improved Spacing
-- Reduce header padding on mobile (`py-4` vs `py-6`)
-- Add more breathing room between elements
-- Slightly smaller font sizes for subtitles on mobile
+### 3. Animation Configuration
 
-#### 5. Faculty Card Refinements
-- Ensure adequate touch targets
-- Keep existing layout (already responsive)
+Use the existing animation utilities with these properties:
+- Duration: 300ms (already defined as `fade-in 0.3s ease-out`)
+- Timing: `ease-out` for natural deceleration
+- Transform: Subtle `translateY(10px)` slide-up effect
 
-### Files to Modify
+## Technical Details
 
-| File | Change |
+### New File: `src/components/PageTransition.tsx`
+
+```tsx
+import { ReactNode } from 'react';
+import { cn } from '@/lib/utils';
+
+interface PageTransitionProps {
+  children: ReactNode;
+  className?: string;
+}
+
+export function PageTransition({ children, className }: PageTransitionProps) {
+  return (
+    <div
+      className={cn(
+        'opacity-0 animate-fade-in',
+        className
+      )}
+      style={{ animationFillMode: 'forwards' }}
+    >
+      {children}
+    </div>
+  );
+}
+```
+
+### Page Modifications
+
+Each page will import and use the `PageTransition` component:
+
+**Index.tsx:**
+```tsx
+import { PageTransition } from '@/components/PageTransition';
+
+// Wrap return statement
+return (
+  <PageTransition className="min-h-screen bg-gradient-to-b ...">
+    {/* existing content */}
+  </PageTransition>
+);
+```
+
+**Leaderboard.tsx:**
+```tsx
+import { PageTransition } from '@/components/PageTransition';
+
+// Wrap return statement
+return (
+  <PageTransition className="min-h-screen bg-background">
+    {/* existing content */}
+  </PageTransition>
+);
+```
+
+**NotFound.tsx:**
+```tsx
+import { PageTransition } from '@/components/PageTransition';
+
+// Wrap return statement  
+return (
+  <PageTransition className="flex min-h-screen items-center justify-center bg-muted">
+    {/* existing content */}
+  </PageTransition>
+);
+```
+
+## Benefits
+
+- **Zero new dependencies** - Uses existing Tailwind animations
+- **Consistent with codebase** - Follows the same pattern used by FacultyCard and FacultyListCompact
+- **Lightweight** - Simple wrapper component with minimal overhead
+- **Smooth UX** - Subtle fade + slide animation provides polish without being distracting
+
+## Files to Create/Modify
+
+| File | Action |
 |------|--------|
-| `src/components/Header.tsx` | Add mobile menu, reorganize buttons, stack stats |
-| `src/components/MobileMenu.tsx` | New component for slide-out navigation |
+| `src/components/PageTransition.tsx` | Create |
+| `src/pages/Index.tsx` | Modify - wrap content |
+| `src/pages/Leaderboard.tsx` | Modify - wrap content |
+| `src/pages/NotFound.tsx` | Modify - wrap content |
 
-### Technical Implementation
-
-**Header.tsx changes:**
-- Import `Sheet`, `SheetContent`, `SheetTrigger` from UI components
-- Import `Menu` icon from lucide-react
-- Add `useIsMobile` hook to detect screen size
-- Conditionally render compact header on mobile
-- Move action buttons into Sheet on mobile
-
-**Stats section:**
-```tsx
-<div className="flex flex-col sm:flex-row gap-2 sm:gap-6 mt-4 text-sm font-mono">
-```
-
-**Mobile button area:**
-```tsx
-{/* Desktop buttons */}
-<div className="hidden sm:flex items-center gap-2">
-  {/* All existing buttons */}
-</div>
-
-{/* Mobile: only theme + menu */}
-<div className="flex sm:hidden items-center gap-2">
-  <Button variant="outline" size="icon" onClick={toggleTheme}>...</Button>
-  <Sheet>
-    <SheetTrigger asChild>
-      <Button variant="outline" size="icon"><Menu /></Button>
-    </SheetTrigger>
-    <SheetContent>
-      {/* Navigation items with proper spacing */}
-    </SheetContent>
-  </Sheet>
-</div>
-```
-
-### Visual Result
-- Cleaner header with only essential icons on mobile
-- Easy-to-access slide-out menu for secondary actions
-- Better vertical rhythm with stacked stats
-- More breathing room throughout
-- Maintains full functionality
