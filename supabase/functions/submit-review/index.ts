@@ -61,11 +61,14 @@ Deno.serve(async (req) => {
       )
     }
 
-    if (!comment || typeof comment !== 'string' || comment.length < 50 || comment.length > 500) {
-      return new Response(
-        JSON.stringify({ error: 'Comment must be between 50 and 500 characters' }),
-        { status: 400, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
-      )
+    // Comment is optional, but if provided, must be 50-500 characters
+    if (comment !== undefined && comment !== null && comment !== '') {
+      if (typeof comment !== 'string' || comment.length < 50 || comment.length > 500) {
+        return new Response(
+          JSON.stringify({ error: 'Comment must be between 50 and 500 characters' }),
+          { status: 400, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
+        )
+      }
     }
 
     // Create Supabase client with service role for rate limit table access
@@ -107,7 +110,7 @@ Deno.serve(async (req) => {
       .insert({
         faculty_id: facultyId,
         rating,
-        comment: comment.trim(),
+        comment: comment?.trim() || null,
       })
       .select()
       .single()

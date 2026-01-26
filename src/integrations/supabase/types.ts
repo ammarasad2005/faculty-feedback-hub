@@ -37,21 +37,21 @@ export type Database = {
       }
       reviews: {
         Row: {
-          comment: string
+          comment: string | null
           created_at: string
           faculty_id: string
           id: string
           rating: number
         }
         Insert: {
-          comment: string
+          comment?: string | null
           created_at?: string
           faculty_id: string
           id?: string
           rating: number
         }
         Update: {
-          comment?: string
+          comment?: string | null
           created_at?: string
           faculty_id?: string
           id?: string

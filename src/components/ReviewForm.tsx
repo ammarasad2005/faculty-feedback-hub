@@ -16,7 +16,8 @@ export function ReviewForm({ facultyId, facultyName }: ReviewFormProps) {
   const { mutate: submitReview, isPending } = useSubmitReview();
 
   const charCount = comment.length;
-  const isValidLength = charCount >= 50 && charCount <= 500;
+  // Valid if empty OR between 50-500 characters
+  const isValidComment = charCount === 0 || (charCount >= 50 && charCount <= 500);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -26,13 +27,14 @@ export function ReviewForm({ facultyId, facultyName }: ReviewFormProps) {
       return;
     }
 
-    if (!isValidLength) {
+    // Only validate comment length if user typed something
+    if (charCount > 0 && !isValidComment) {
       toast.error('Comment must be between 50 and 500 characters');
       return;
     }
 
     submitReview(
-      { facultyId, rating, comment },
+      { facultyId, rating, comment: comment.trim() || '' },
       {
         onSuccess: () => {
           toast.success('Review submitted successfully!');
@@ -62,14 +64,16 @@ export function ReviewForm({ facultyId, facultyName }: ReviewFormProps) {
         <Textarea
           value={comment}
           onChange={(e) => setComment(e.target.value)}
-          placeholder="Share your experience with this faculty member (minimum 50 characters)..."
+          placeholder="(Optional) Share your experience with this faculty member (minimum 50 characters if provided)..."
           className="min-h-[120px] resize-none border-2"
           maxLength={500}
         />
         <div className="flex justify-between mt-2 text-sm">
           <span
             className={
-              charCount < 50
+              charCount === 0
+                ? 'text-muted-foreground'
+                : charCount < 50
                 ? 'text-destructive'
                 : charCount > 500
                 ? 'text-destructive'
@@ -78,7 +82,7 @@ export function ReviewForm({ facultyId, facultyName }: ReviewFormProps) {
           >
             {charCount}/500 characters
           </span>
-          {charCount < 50 && (
+          {charCount > 0 && charCount < 50 && (
             <span className="text-muted-foreground">
               {50 - charCount} more needed
             </span>
@@ -88,7 +92,7 @@ export function ReviewForm({ facultyId, facultyName }: ReviewFormProps) {
 
       <Button
         type="submit"
-        disabled={isPending || rating === 0 || !isValidLength}
+        disabled={isPending || rating === 0 || !isValidComment}
         className="w-full"
       >
         {isPending ? 'Submitting...' : 'Submit Anonymous Review'}
