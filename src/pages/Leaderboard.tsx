@@ -1,5 +1,6 @@
 import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
+import { PageTransition } from '@/components/PageTransition';
 import { useFacultyData } from '@/hooks/useFacultyData';
 import { useAllReviewStats } from '@/hooks/useReviews';
 import { StarRating } from '@/components/StarRating';
@@ -112,7 +113,7 @@ export default function Leaderboard() {
   const isLoading = loading || statsLoading;
 
   return (
-    <div className="min-h-screen bg-background">
+    <PageTransition className="min-h-screen bg-background">
       <header className="border-b-2 border-border bg-card">
         <div className="container py-4 sm:py-6">
           <div className="flex items-center gap-3 sm:gap-4">
@@ -367,6 +368,6 @@ export default function Leaderboard() {
           </Card>
         </div>
       </main>
-    </div>
+    </PageTransition>
   );
 }
