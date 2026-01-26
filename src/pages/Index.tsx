@@ -3,6 +3,7 @@ import { Header } from '@/components/Header';
 import { SearchFilter } from '@/components/SearchFilter';
 import { FacultyCard } from '@/components/FacultyCard';
 import { FacultyCarousel } from '@/components/FacultyCarousel';
+import { FacultyListCompact } from '@/components/FacultyListCompact';
 import { FacultyModal } from '@/components/FacultyModal';
 import { useFacultyData, ProcessedFaculty } from '@/hooks/useFacultyData';
 import { useAllReviewStats } from '@/hooks/useReviews';
@@ -15,7 +16,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight, LayoutGrid, List } from 'lucide-react';
 import { useIsMobile } from '@/hooks/use-mobile';
 
 const PAGE_SIZE_OPTIONS = [12, 24, 48];
@@ -30,6 +31,7 @@ const Index = () => {
   const [selectedFaculty, setSelectedFaculty] = useState<ProcessedFaculty | null>(null);
   const [currentPage, setCurrentPage] = useState(1);
   const [pageSize, setPageSize] = useState(12);
+  const [mobileViewMode, setMobileViewMode] = useState<'carousel' | 'list'>('carousel');
 
   const filteredFaculty = useMemo(() => {
     return faculty.filter((member) => {
@@ -142,7 +144,31 @@ const Index = () => {
               </p>
               
               <div className="flex items-center gap-2">
-                <span className="text-sm text-muted-foreground">Per page:</span>
+                {/* Mobile view toggle */}
+                {isMobile && (
+                  <div className="flex border border-border rounded-md overflow-hidden">
+                    <Button
+                      variant={mobileViewMode === 'carousel' ? 'default' : 'ghost'}
+                      size="sm"
+                      className="h-8 px-2 rounded-none"
+                      onClick={() => setMobileViewMode('carousel')}
+                      aria-label="Carousel view"
+                    >
+                      <LayoutGrid className="h-4 w-4" />
+                    </Button>
+                    <Button
+                      variant={mobileViewMode === 'list' ? 'default' : 'ghost'}
+                      size="sm"
+                      className="h-8 px-2 rounded-none border-l border-border"
+                      onClick={() => setMobileViewMode('list')}
+                      aria-label="List view"
+                    >
+                      <List className="h-4 w-4" />
+                    </Button>
+                  </div>
+                )}
+                
+                <span className="text-sm text-muted-foreground hidden sm:inline">Per page:</span>
                 <Select value={String(pageSize)} onValueChange={handlePageSizeChange}>
                   <SelectTrigger className="w-[70px] h-8 border-2">
                     <SelectValue />
@@ -159,11 +185,19 @@ const Index = () => {
             </div>
 
             {isMobile ? (
-              <FacultyCarousel
-                faculty={paginatedFaculty}
-                reviewStats={reviewStats}
-                onFacultyClick={setSelectedFaculty}
-              />
+              mobileViewMode === 'carousel' ? (
+                <FacultyCarousel
+                  faculty={paginatedFaculty}
+                  reviewStats={reviewStats}
+                  onFacultyClick={setSelectedFaculty}
+                />
+              ) : (
+                <FacultyListCompact
+                  faculty={paginatedFaculty}
+                  reviewStats={reviewStats}
+                  onFacultyClick={setSelectedFaculty}
+                />
+              )
             ) : (
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {paginatedFaculty.map((member, index) => (
