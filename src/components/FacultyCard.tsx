@@ -29,9 +29,9 @@ export const FacultyCard = React.forwardRef<HTMLDivElement, FacultyCardProps>(
         style={{ animationDelay: `${delay}ms`, animationFillMode: 'forwards' }}
         onClick={onClick}
       >
-      <CardContent className="p-4">
-        <div className="flex gap-4">
-          <div className="relative w-20 h-20 shrink-0 overflow-hidden border-2 border-border bg-muted">
+      <CardContent className="p-3 sm:p-4">
+        <div className="flex gap-3 sm:gap-4">
+          <div className="relative w-16 h-16 sm:w-20 sm:h-20 shrink-0 overflow-hidden border-2 border-border bg-muted rounded-sm">
             <img
               src={faculty.image}
               alt={faculty.name}
