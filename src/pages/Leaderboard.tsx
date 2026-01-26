@@ -136,124 +136,128 @@ export default function Leaderboard() {
         </div>
       </header>
 
-      <main className="container py-4 sm:py-6 space-y-4 sm:space-y-6">
-        {/* Stats Overview */}
-        <div className="grid gap-3 sm:gap-4 grid-cols-2 lg:grid-cols-4">
-          <Card className="border-2">
-            <CardHeader className="flex flex-row items-center justify-between space-y-0 p-3 sm:p-4 pb-1 sm:pb-2">
-              <CardTitle className="text-xs sm:text-sm font-medium">Total Reviews</CardTitle>
-              <MessageSquare className="h-3.5 w-3.5 sm:h-4 sm:w-4 text-muted-foreground" />
+      <main className="container py-4 sm:py-6 space-y-4 sm:space-y-6 max-w-4xl mx-auto">
+        {/* Stats Overview - 2x2 grid on mobile */}
+        <div className="grid gap-2 sm:gap-3 grid-cols-2 sm:grid-cols-4">
+          <Card className="border">
+            <CardHeader className="p-2.5 sm:p-4 pb-1">
+              <CardTitle className="text-[11px] sm:text-sm font-medium text-muted-foreground flex items-center justify-between">
+                Reviews
+                <MessageSquare className="h-3 w-3 sm:h-4 sm:w-4" />
+              </CardTitle>
             </CardHeader>
-            <CardContent className="p-3 sm:p-4 pt-0">
+            <CardContent className="p-2.5 sm:p-4 pt-0">
               {isLoading ? (
-                <Skeleton className="h-6 sm:h-8 w-16 sm:w-20" />
+                <Skeleton className="h-5 sm:h-7 w-12" />
               ) : (
-                <div className="text-xl sm:text-2xl font-bold">{overallStats.totalReviews}</div>
+                <div className="text-lg sm:text-2xl font-bold">{overallStats.totalReviews}</div>
               )}
             </CardContent>
           </Card>
 
-          <Card className="border-2">
-            <CardHeader className="flex flex-row items-center justify-between space-y-0 p-3 sm:p-4 pb-1 sm:pb-2">
-              <CardTitle className="text-xs sm:text-sm font-medium">Avg Rating</CardTitle>
-              <Star className="h-3.5 w-3.5 sm:h-4 sm:w-4 text-muted-foreground" />
+          <Card className="border">
+            <CardHeader className="p-2.5 sm:p-4 pb-1">
+              <CardTitle className="text-[11px] sm:text-sm font-medium text-muted-foreground flex items-center justify-between">
+                Avg
+                <Star className="h-3 w-3 sm:h-4 sm:w-4" />
+              </CardTitle>
             </CardHeader>
-            <CardContent className="p-3 sm:p-4 pt-0">
+            <CardContent className="p-2.5 sm:p-4 pt-0">
               {isLoading ? (
-                <Skeleton className="h-6 sm:h-8 w-16 sm:w-20" />
+                <Skeleton className="h-5 sm:h-7 w-12" />
               ) : (
-                <div className="text-xl sm:text-2xl font-bold">
-                  {overallStats.avgRating.toFixed(1)}<span className="text-sm sm:text-base font-normal text-muted-foreground"> / 5</span>
+                <div className="text-lg sm:text-2xl font-bold">
+                  {overallStats.avgRating.toFixed(1)}
                 </div>
               )}
             </CardContent>
           </Card>
 
-          <Card className="border-2">
-            <CardHeader className="flex flex-row items-center justify-between space-y-0 p-3 sm:p-4 pb-1 sm:pb-2">
-              <CardTitle className="text-xs sm:text-sm font-medium">Reviewed</CardTitle>
-              <Users className="h-3.5 w-3.5 sm:h-4 sm:w-4 text-muted-foreground" />
+          <Card className="border">
+            <CardHeader className="p-2.5 sm:p-4 pb-1">
+              <CardTitle className="text-[11px] sm:text-sm font-medium text-muted-foreground flex items-center justify-between">
+                Rated
+                <Users className="h-3 w-3 sm:h-4 sm:w-4" />
+              </CardTitle>
             </CardHeader>
-            <CardContent className="p-3 sm:p-4 pt-0">
+            <CardContent className="p-2.5 sm:p-4 pt-0">
               {isLoading ? (
-                <Skeleton className="h-6 sm:h-8 w-16 sm:w-20" />
+                <Skeleton className="h-5 sm:h-7 w-12" />
               ) : (
-                <div className="text-xl sm:text-2xl font-bold">
-                  {overallStats.facultyWithReviews}<span className="text-sm sm:text-base font-normal text-muted-foreground"> / {faculty.length}</span>
+                <div className="text-lg sm:text-2xl font-bold">
+                  {overallStats.facultyWithReviews}
                 </div>
               )}
             </CardContent>
           </Card>
 
-          <Card className="border-2">
-            <CardHeader className="flex flex-row items-center justify-between space-y-0 p-3 sm:p-4 pb-1 sm:pb-2">
-              <CardTitle className="text-xs sm:text-sm font-medium">Departments</CardTitle>
-              <TrendingUp className="h-3.5 w-3.5 sm:h-4 sm:w-4 text-muted-foreground" />
+          <Card className="border">
+            <CardHeader className="p-2.5 sm:p-4 pb-1">
+              <CardTitle className="text-[11px] sm:text-sm font-medium text-muted-foreground flex items-center justify-between">
+                Depts
+                <TrendingUp className="h-3 w-3 sm:h-4 sm:w-4" />
+              </CardTitle>
             </CardHeader>
-            <CardContent className="p-3 sm:p-4 pt-0">
+            <CardContent className="p-2.5 sm:p-4 pt-0">
               {isLoading ? (
-                <Skeleton className="h-6 sm:h-8 w-16 sm:w-20" />
+                <Skeleton className="h-5 sm:h-7 w-12" />
               ) : (
-                <div className="text-xl sm:text-2xl font-bold">{departments.length}</div>
+                <div className="text-lg sm:text-2xl font-bold">{departments.length}</div>
               )}
             </CardContent>
           </Card>
         </div>
 
-        <div className="grid gap-4 sm:gap-6 lg:grid-cols-2">
+        {/* Content sections - stack on mobile */}
+        <div className="space-y-4 sm:space-y-6">
           {/* Top Rated Faculty */}
-          <Card className="border-2">
-            <CardHeader className="p-3 sm:p-6">
-              <CardTitle className="flex items-center gap-2 text-base sm:text-lg">
-                <Trophy className="h-4 w-4 sm:h-5 sm:w-5 text-primary" />
+          <Card className="border">
+            <CardHeader className="p-3 sm:p-4">
+              <CardTitle className="flex items-center gap-2 text-sm sm:text-base">
+                <Trophy className="h-4 w-4 text-primary" />
                 Top 10 Faculty
               </CardTitle>
             </CardHeader>
-            <CardContent className="p-3 sm:p-6 pt-0">
+            <CardContent className="p-3 sm:p-4 pt-0">
               {isLoading ? (
-                <div className="space-y-2 sm:space-y-3">
+                <div className="space-y-2">
                   {[...Array(5)].map((_, i) => (
-                    <Skeleton key={i} className="h-14 sm:h-16 w-full" />
+                    <Skeleton key={i} className="h-12 w-full" />
                   ))}
                 </div>
               ) : topRated.length === 0 ? (
-                <p className="text-muted-foreground text-center py-6 sm:py-8 text-sm">
+                <p className="text-muted-foreground text-center py-6 text-sm">
                   No reviews yet. Be the first to rate!
                 </p>
               ) : (
-                <div className="space-y-2 sm:space-y-3">
+                <div className="space-y-1.5 sm:space-y-2">
                   {topRated.map((member, index) => (
                     <div
                       key={member.id}
-                      className="flex items-center gap-2 sm:gap-3 p-2 sm:p-3 border border-border bg-card rounded-sm"
+                      className="flex items-center gap-2 p-2 border border-border bg-background/50 rounded-sm"
                     >
-                      <div className="flex items-center justify-center w-6 h-6 sm:w-8 sm:h-8 border border-border bg-muted font-bold text-xs sm:text-sm shrink-0">
+                      <div className="flex items-center justify-center w-5 h-5 sm:w-6 sm:h-6 bg-muted text-[10px] sm:text-xs font-bold shrink-0 rounded-sm">
                         {index + 1}
                       </div>
                       <img
                         src={member.image}
                         alt={member.name}
-                        className="w-8 h-8 sm:w-10 sm:h-10 object-cover border border-border rounded-sm shrink-0"
+                        className="w-7 h-7 sm:w-8 sm:h-8 object-cover border border-border rounded-sm shrink-0"
                         onError={(e) => {
                           e.currentTarget.src = '/placeholder.svg';
                         }}
                       />
                       <div className="flex-1 min-w-0">
-                        <p className="font-medium text-sm truncate">{member.name}</p>
-                        <p className="text-[10px] sm:text-xs text-muted-foreground truncate">
+                        <p className="font-medium text-xs sm:text-sm truncate">{member.name}</p>
+                        <p className="text-[10px] text-muted-foreground truncate">
                           {member.department}
                         </p>
                       </div>
-                      <div className="text-right shrink-0">
-                        <div className="flex items-center gap-0.5 sm:gap-1">
-                          <StarRating rating={Math.round(member.avgRating)} size="sm" />
-                          <span className="font-bold text-xs sm:text-sm ml-0.5 sm:ml-1">
-                            {member.avgRating.toFixed(1)}
-                          </span>
-                        </div>
-                        <p className="text-[10px] sm:text-xs text-muted-foreground">
-                          {member.totalReviews} reviews
-                        </p>
+                      <div className="text-right shrink-0 flex items-center gap-1">
+                        <StarRating rating={Math.round(member.avgRating)} size="sm" />
+                        <span className="font-bold text-xs">
+                          {member.avgRating.toFixed(1)}
+                        </span>
                       </div>
                     </div>
                   ))}
@@ -263,68 +267,69 @@ export default function Leaderboard() {
           </Card>
 
           {/* Department Rankings */}
-          <Card className="border-2">
-            <CardHeader className="p-3 sm:p-6">
-              <CardTitle className="text-base sm:text-lg">Department Rankings</CardTitle>
+          <Card className="border">
+            <CardHeader className="p-3 sm:p-4">
+              <CardTitle className="text-sm sm:text-base">Department Rankings</CardTitle>
             </CardHeader>
-            <CardContent className="p-3 sm:p-6 pt-0">
+            <CardContent className="p-3 sm:p-4 pt-0">
               {isLoading ? (
-                <Skeleton className="h-[250px] sm:h-[300px] w-full" />
+                <Skeleton className="h-[200px] w-full" />
               ) : departmentStats.length === 0 ? (
-                <p className="text-muted-foreground text-center py-6 sm:py-8 text-sm">
+                <p className="text-muted-foreground text-center py-6 text-sm">
                   No department data available yet.
                 </p>
               ) : (
-                <ResponsiveContainer width="100%" height={250}>
-                  <BarChart data={departmentStats} layout="vertical" margin={{ left: 0, right: 20 }}>
-                    <CartesianGrid strokeDasharray="3 3" className="stroke-border" />
-                    <XAxis type="number" domain={[0, 5]} className="text-xs" tick={{ fontSize: 10 }} />
-                    <YAxis
-                      dataKey="name"
-                      type="category"
-                      width={80}
-                      className="text-xs"
-                      tick={{ fill: 'hsl(var(--foreground))', fontSize: 10 }}
-                    />
-                    <Tooltip
-                      contentStyle={{
-                        backgroundColor: 'hsl(var(--card))',
-                        border: '2px solid hsl(var(--border))',
-                        borderRadius: '0',
-                        fontSize: '12px',
-                      }}
-                      formatter={(value: number) => [value.toFixed(2), 'Avg Rating']}
-                    />
-                    <Bar dataKey="avgRating" fill="hsl(var(--primary))" />
-                  </BarChart>
-                </ResponsiveContainer>
+                <div className="h-[200px] sm:h-[250px]">
+                  <ResponsiveContainer width="100%" height="100%">
+                    <BarChart data={departmentStats} layout="vertical" margin={{ left: -10, right: 10, top: 5, bottom: 5 }}>
+                      <CartesianGrid strokeDasharray="3 3" className="stroke-border" />
+                      <XAxis type="number" domain={[0, 5]} tick={{ fontSize: 10 }} />
+                      <YAxis
+                        dataKey="name"
+                        type="category"
+                        width={70}
+                        tick={{ fill: 'hsl(var(--foreground))', fontSize: 9 }}
+                      />
+                      <Tooltip
+                        contentStyle={{
+                          backgroundColor: 'hsl(var(--card))',
+                          border: '1px solid hsl(var(--border))',
+                          borderRadius: '4px',
+                          fontSize: '11px',
+                        }}
+                        formatter={(value: number) => [value.toFixed(2), 'Avg']}
+                      />
+                      <Bar dataKey="avgRating" fill="hsl(var(--primary))" radius={[0, 4, 4, 0]} />
+                    </BarChart>
+                  </ResponsiveContainer>
+                </div>
               )}
             </CardContent>
           </Card>
 
           {/* Rating Distribution */}
-          <Card className="border-2 lg:col-span-2">
-            <CardHeader className="p-3 sm:p-6">
-              <CardTitle className="text-base sm:text-lg">Rating Distribution</CardTitle>
+          <Card className="border">
+            <CardHeader className="p-3 sm:p-4">
+              <CardTitle className="text-sm sm:text-base">Rating Distribution</CardTitle>
             </CardHeader>
-            <CardContent className="p-3 sm:p-6 pt-0">
+            <CardContent className="p-3 sm:p-4 pt-0">
               {isLoading ? (
-                <Skeleton className="h-[180px] sm:h-[200px] w-full" />
+                <Skeleton className="h-[140px] w-full" />
               ) : ratingDistribution.every((d) => d.count === 0) ? (
-                <p className="text-muted-foreground text-center py-6 sm:py-8 text-sm">
+                <p className="text-muted-foreground text-center py-6 text-sm">
                   No rating data available yet.
                 </p>
               ) : (
-                <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-8">
-                  <div className="w-full sm:w-auto">
-                    <ResponsiveContainer width="100%" height={160}>
+                <div className="flex items-center gap-4">
+                  <div className="w-[120px] h-[120px] sm:w-[140px] sm:h-[140px] shrink-0">
+                    <ResponsiveContainer width="100%" height="100%">
                       <PieChart>
                         <Pie
                           data={ratingDistribution.filter((d) => d.count > 0)}
                           cx="50%"
                           cy="50%"
-                          innerRadius={40}
-                          outerRadius={65}
+                          innerRadius={30}
+                          outerRadius={50}
                           paddingAngle={2}
                           dataKey="count"
                         >
@@ -335,23 +340,23 @@ export default function Leaderboard() {
                         <Tooltip
                           contentStyle={{
                             backgroundColor: 'hsl(var(--card))',
-                            border: '2px solid hsl(var(--border))',
-                            borderRadius: '0',
-                            fontSize: '12px',
+                            border: '1px solid hsl(var(--border))',
+                            borderRadius: '4px',
+                            fontSize: '11px',
                           }}
                         />
                       </PieChart>
                     </ResponsiveContainer>
                   </div>
-                  <div className="flex flex-wrap gap-3 sm:gap-4 justify-center">
+                  <div className="flex flex-col gap-1.5">
                     {ratingDistribution.map((entry, index) => (
-                      <div key={entry.rating} className="flex items-center gap-1.5 sm:gap-2">
+                      <div key={entry.rating} className="flex items-center gap-1.5">
                         <div
-                          className="w-2.5 h-2.5 sm:w-3 sm:h-3"
+                          className="w-2.5 h-2.5 rounded-sm shrink-0"
                           style={{ backgroundColor: COLORS[index % COLORS.length] }}
                         />
-                        <span className="text-xs sm:text-sm">
-                          {entry.rating}: {entry.count}
+                        <span className="text-[11px] sm:text-xs text-muted-foreground">
+                          {entry.rating}: <span className="font-medium text-foreground">{entry.count}</span>
                         </span>
                       </div>
                     ))}
