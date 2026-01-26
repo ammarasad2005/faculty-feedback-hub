@@ -1,6 +1,7 @@
 import { useState, useMemo, useEffect } from 'react';
 import { Header } from '@/components/Header';
 import { SearchFilter } from '@/components/SearchFilter';
+import { PageTransition } from '@/components/PageTransition';
 import { FacultyCard } from '@/components/FacultyCard';
 import { FacultyCarousel } from '@/components/FacultyCarousel';
 import { FacultyListCompact } from '@/components/FacultyListCompact';
@@ -111,7 +112,7 @@ const Index = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-primary/[0.06] via-primary/[0.02] to-primary/[0.08] dark:from-primary/[0.08] dark:via-primary/[0.03] dark:to-primary/[0.10]">
+    <PageTransition className="min-h-screen bg-gradient-to-b from-primary/[0.06] via-primary/[0.02] to-primary/[0.08] dark:from-primary/[0.08] dark:via-primary/[0.03] dark:to-primary/[0.10]">
       <Header
         totalFaculty={faculty.length}
         totalDepartments={departments.length}
@@ -284,7 +285,7 @@ const Index = () => {
           <p className="mt-1.5 text-muted-foreground/80">Reviews are completely anonymous and cannot be traced back to users.</p>
         </div>
       </footer>
-    </div>
+    </PageTransition>
   );
 };
 
