@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { Header } from '@/components/Header';
 import { SearchFilter } from '@/components/SearchFilter';
 import { FacultyCard } from '@/components/FacultyCard';
@@ -31,7 +31,15 @@ const Index = () => {
   const [selectedFaculty, setSelectedFaculty] = useState<ProcessedFaculty | null>(null);
   const [currentPage, setCurrentPage] = useState(1);
   const [pageSize, setPageSize] = useState(12);
-  const [mobileViewMode, setMobileViewMode] = useState<'carousel' | 'list'>('carousel');
+  const [mobileViewMode, setMobileViewMode] = useState<'carousel' | 'list'>(() => {
+    const saved = localStorage.getItem('facultyViewMode');
+    return saved === 'list' ? 'list' : 'carousel';
+  });
+
+  // Persist view preference
+  useEffect(() => {
+    localStorage.setItem('facultyViewMode', mobileViewMode);
+  }, [mobileViewMode]);
 
   const filteredFaculty = useMemo(() => {
     return faculty.filter((member) => {
