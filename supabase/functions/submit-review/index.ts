@@ -61,11 +61,11 @@ Deno.serve(async (req) => {
       )
     }
 
-    // Comment is optional, but if provided, must be 50-500 characters
+    // Comment is optional, but if provided, must be at most 500 characters
     if (comment !== undefined && comment !== null && comment !== '') {
-      if (typeof comment !== 'string' || comment.length < 50 || comment.length > 500) {
+      if (typeof comment !== 'string' || comment.length > 500) {
         return new Response(
-          JSON.stringify({ error: 'Comment must be between 50 and 500 characters' }),
+          JSON.stringify({ error: 'Comment must be at most 500 characters' }),
           { status: 400, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
         )
       }
